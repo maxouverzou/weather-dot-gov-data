@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+set -eo pipefail
+
+mkdir -p $1
+FILE=$1/$(date '+%Y-%m-%d').json
+
+POINT=$(curl $CURL_OPTS https://api.weather.gov/points/$2,$3)
+
+GRIDPOINT=$(echo $POINT | jq -r '.properties | .gridId + "/" + (.gridX | tostring) + "," + (.gridY | tostring)')
+FORECAST=$(curl $CURL_OPTS https://api.weather.gov/gridpoints/$GRIDPOINT/forecast)
+
+echo $POINT $FORECAST | jq -sf ./get-daily-forecast.jq > $FILE

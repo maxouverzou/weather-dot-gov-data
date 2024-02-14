@@ -1,0 +1,2 @@
+wa/mt-baker 48.4636 -121.4842
+wa/anderson-mountain 48.6406 -122.257

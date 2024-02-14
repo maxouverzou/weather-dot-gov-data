@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+set -eo pipefail
+
+curl --version
+jq --version
+
+export CURL_OPTS='--silent --header "User-Agent: maxouverzou"'
+curl --fail $CURL_OPTS https://api.weather.gov | jq -e '.status == "OK"'
+
+grep -v '^\s*$\|^\s*#' locations.txt | xargs -n3 ./scrape-location 
