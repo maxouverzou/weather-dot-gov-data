@@ -1,0 +1,93 @@
+{
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      -122.257,
+      48.6406
+    ]
+  },
+  "relativeLocation": {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -122.329311,
+        48.610394
+      ]
+    },
+    "properties": {
+      "city": "Alger",
+      "state": "WA",
+      "distance": {
+        "unitCode": "wmoUnit:m",
+        "value": 6287.0546938371
+      },
+      "bearing": {
+        "unitCode": "wmoUnit:degree_(angle)",
+        "value": 57
+      }
+    },
+    "elevation": {
+      "unitCode": "wmoUnit:m",
+      "value": 919.8864
+    }
+  },
+  "updated": "2024-02-14T20:33:25+00:00",
+  "forecastGenerator": "BaselineForecastGenerator",
+  "forecast": [
+    {
+      "number": 1,
+      "name": "This Afternoon",
+      "startTime": "2024-02-14T13:00:00-08:00",
+      "endTime": "2024-02-14T18:00:00-08:00",
+      "isDaytime": true,
+      "temperature": 40,
+      "temperatureUnit": "F",
+      "temperatureTrend": "falling",
+      "probabilityOfPrecipitation": {
+        "unitCode": "wmoUnit:percent",
+        "value": null
+      },
+      "dewpoint": {
+        "unitCode": "wmoUnit:degC",
+        "value": -7.222222222222222
+      },
+      "relativeHumidity": {
+        "unitCode": "wmoUnit:percent",
+        "value": 45
+      },
+      "windSpeed": "10 mph",
+      "windDirection": "ENE",
+      "icon": "https://api.weather.gov/icons/land/day/sct?size=medium",
+      "shortForecast": "Mostly Sunny",
+      "detailedForecast": "Mostly sunny. High near 40, with temperatures falling to around 38 in the afternoon. East northeast wind around 10 mph."
+    },
+    {
+      "number": 2,
+      "name": "Tonight",
+      "startTime": "2024-02-14T18:00:00-08:00",
+      "endTime": "2024-02-15T06:00:00-08:00",
+      "isDaytime": false,
+      "temperature": 29,
+      "temperatureUnit": "F",
+      "temperatureTrend": "rising",
+      "probabilityOfPrecipitation": {
+        "unitCode": "wmoUnit:percent",
+        "value": 50
+      },
+      "dewpoint": {
+        "unitCode": "wmoUnit:degC",
+        "value": -8.333333333333334
+      },
+      "relativeHumidity": {
+        "unitCode": "wmoUnit:percent",
+        "value": 54
+      },
+      "windSpeed": "12 mph",
+      "windDirection": "ENE",
+      "icon": "https://api.weather.gov/icons/land/night/bkn/snow,50?size=medium",
+      "shortForecast": "Mostly Cloudy then Chance Light Snow",
+      "detailedForecast": "A chance of snow after midnight. Mostly cloudy. Low around 29, with temperatures rising to around 31 overnight. Wind chill values as low as 25. East northeast wind around 12 mph. Chance of precipitation is 50%. Little or no snow accumulation expected."
+    }
+  ]
+}
