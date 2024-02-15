@@ -1,0 +1,93 @@
+{
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      -122.257,
+      48.6406
+    ]
+  },
+  "relativeLocation": {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -122.329311,
+        48.610394
+      ]
+    },
+    "properties": {
+      "city": "Alger",
+      "state": "WA",
+      "distance": {
+        "unitCode": "wmoUnit:m",
+        "value": 6287.0546938371
+      },
+      "bearing": {
+        "unitCode": "wmoUnit:degree_(angle)",
+        "value": 57
+      }
+    },
+    "elevation": {
+      "unitCode": "wmoUnit:m",
+      "value": 919.8864
+    }
+  },
+  "updated": "2024-02-15T04:40:56+00:00",
+  "forecastGenerator": "BaselineForecastGenerator",
+  "forecast": [
+    {
+      "number": 1,
+      "name": "Tonight",
+      "startTime": "2024-02-14T22:00:00-08:00",
+      "endTime": "2024-02-15T06:00:00-08:00",
+      "isDaytime": false,
+      "temperature": 29,
+      "temperatureUnit": "F",
+      "temperatureTrend": "rising",
+      "probabilityOfPrecipitation": {
+        "unitCode": "wmoUnit:percent",
+        "value": 20
+      },
+      "dewpoint": {
+        "unitCode": "wmoUnit:degC",
+        "value": -8.88888888888889
+      },
+      "relativeHumidity": {
+        "unitCode": "wmoUnit:percent",
+        "value": 54
+      },
+      "windSpeed": "12 mph",
+      "windDirection": "ENE",
+      "icon": "https://api.weather.gov/icons/land/night/bkn/snow,20?size=medium",
+      "shortForecast": "Mostly Cloudy then Slight Chance Light Snow",
+      "detailedForecast": "A slight chance of snow after 4am. Mostly cloudy. Low around 29, with temperatures rising to around 31 overnight. Wind chill values as low as 20. East northeast wind around 12 mph. Chance of precipitation is 20%. Little or no snow accumulation expected."
+    },
+    {
+      "number": 2,
+      "name": "Thursday",
+      "startTime": "2024-02-15T06:00:00-08:00",
+      "endTime": "2024-02-15T18:00:00-08:00",
+      "isDaytime": true,
+      "temperature": 37,
+      "temperatureUnit": "F",
+      "temperatureTrend": "falling",
+      "probabilityOfPrecipitation": {
+        "unitCode": "wmoUnit:percent",
+        "value": 30
+      },
+      "dewpoint": {
+        "unitCode": "wmoUnit:degC",
+        "value": -5
+      },
+      "relativeHumidity": {
+        "unitCode": "wmoUnit:percent",
+        "value": 61
+      },
+      "windSpeed": "6 to 9 mph",
+      "windDirection": "ENE",
+      "icon": "https://api.weather.gov/icons/land/day/snow,30?size=medium",
+      "shortForecast": "Chance Light Snow",
+      "detailedForecast": "A chance of snow before 3pm. Mostly cloudy. High near 37, with temperatures falling to around 35 in the afternoon. Wind chill values as low as 20. East northeast wind 6 to 9 mph. Chance of precipitation is 30%. Little or no snow accumulation expected."
+    }
+  ]
+}
