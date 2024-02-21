@@ -1,0 +1,93 @@
+{
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      -122.257,
+      48.6406
+    ]
+  },
+  "relativeLocation": {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -122.329311,
+        48.610394
+      ]
+    },
+    "properties": {
+      "city": "Alger",
+      "state": "WA",
+      "distance": {
+        "unitCode": "wmoUnit:m",
+        "value": 6287.0546938371
+      },
+      "bearing": {
+        "unitCode": "wmoUnit:degree_(angle)",
+        "value": 57
+      }
+    },
+    "elevation": {
+      "unitCode": "wmoUnit:m",
+      "value": 919.8864
+    }
+  },
+  "updated": "2024-02-21T04:40:19+00:00",
+  "forecastGenerator": "BaselineForecastGenerator",
+  "forecast": [
+    {
+      "number": 1,
+      "name": "Tonight",
+      "startTime": "2024-02-20T22:00:00-08:00",
+      "endTime": "2024-02-21T06:00:00-08:00",
+      "isDaytime": false,
+      "temperature": 36,
+      "temperatureUnit": "F",
+      "temperatureTrend": "rising",
+      "probabilityOfPrecipitation": {
+        "unitCode": "wmoUnit:percent",
+        "value": 60
+      },
+      "dewpoint": {
+        "unitCode": "wmoUnit:degC",
+        "value": 1.6666666666666667
+      },
+      "relativeHumidity": {
+        "unitCode": "wmoUnit:percent",
+        "value": 82
+      },
+      "windSpeed": "10 to 14 mph",
+      "windDirection": "SE",
+      "icon": "https://api.weather.gov/icons/land/night/rain_showers,40/rain_showers,60?size=medium",
+      "shortForecast": "Rain Showers Likely",
+      "detailedForecast": "Rain showers likely. Mostly cloudy. Low around 36, with temperatures rising to around 38 overnight. Southeast wind 10 to 14 mph. Chance of precipitation is 60%. New rainfall amounts less than a tenth of an inch possible."
+    },
+    {
+      "number": 2,
+      "name": "Wednesday",
+      "startTime": "2024-02-21T06:00:00-08:00",
+      "endTime": "2024-02-21T18:00:00-08:00",
+      "isDaytime": true,
+      "temperature": 43,
+      "temperatureUnit": "F",
+      "temperatureTrend": null,
+      "probabilityOfPrecipitation": {
+        "unitCode": "wmoUnit:percent",
+        "value": 80
+      },
+      "dewpoint": {
+        "unitCode": "wmoUnit:degC",
+        "value": 2.7777777777777777
+      },
+      "relativeHumidity": {
+        "unitCode": "wmoUnit:percent",
+        "value": 86
+      },
+      "windSpeed": "15 to 23 mph",
+      "windDirection": "SE",
+      "icon": "https://api.weather.gov/icons/land/day/rain_showers,70/rain_showers,80?size=medium",
+      "shortForecast": "Rain Showers",
+      "detailedForecast": "Rain showers. Cloudy, with a high near 43. Southeast wind 15 to 23 mph, with gusts as high as 32 mph. Chance of precipitation is 80%. New rainfall amounts between a quarter and half of an inch possible."
+    }
+  ]
+}
