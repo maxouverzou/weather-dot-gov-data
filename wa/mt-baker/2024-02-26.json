@@ -1,0 +1,93 @@
+{
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      -121.4842,
+      48.4636
+    ]
+  },
+  "relativeLocation": {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -121.437344,
+        48.536031
+      ]
+    },
+    "properties": {
+      "city": "Marblemount",
+      "state": "WA",
+      "distance": {
+        "unitCode": "wmoUnit:m",
+        "value": 8762.7210443436
+      },
+      "bearing": {
+        "unitCode": "wmoUnit:degree_(angle)",
+        "value": 203
+      }
+    },
+    "elevation": {
+      "unitCode": "wmoUnit:m",
+      "value": 448.9704
+    }
+  },
+  "updated": "2024-02-26T04:40:21+00:00",
+  "forecastGenerator": "BaselineForecastGenerator",
+  "forecast": [
+    {
+      "number": 1,
+      "name": "Tonight",
+      "startTime": "2024-02-25T22:00:00-08:00",
+      "endTime": "2024-02-26T06:00:00-08:00",
+      "isDaytime": false,
+      "temperature": 32,
+      "temperatureUnit": "F",
+      "temperatureTrend": null,
+      "probabilityOfPrecipitation": {
+        "unitCode": "wmoUnit:percent",
+        "value": 90
+      },
+      "dewpoint": {
+        "unitCode": "wmoUnit:degC",
+        "value": -2.7777777777777777
+      },
+      "relativeHumidity": {
+        "unitCode": "wmoUnit:percent",
+        "value": 78
+      },
+      "windSpeed": "6 to 10 mph",
+      "windDirection": "SW",
+      "icon": "https://api.weather.gov/icons/land/night/snow,70/snow,90?size=medium",
+      "shortForecast": "Heavy Snow",
+      "detailedForecast": "Snow. Mostly cloudy, with a low around 32. Wind chill values as low as 24. Southwest wind 6 to 10 mph. Chance of precipitation is 90%. New snow accumulation of 3 to 5 inches possible."
+    },
+    {
+      "number": 2,
+      "name": "Monday",
+      "startTime": "2024-02-26T06:00:00-08:00",
+      "endTime": "2024-02-26T18:00:00-08:00",
+      "isDaytime": true,
+      "temperature": 36,
+      "temperatureUnit": "F",
+      "temperatureTrend": "falling",
+      "probabilityOfPrecipitation": {
+        "unitCode": "wmoUnit:percent",
+        "value": 100
+      },
+      "dewpoint": {
+        "unitCode": "wmoUnit:degC",
+        "value": -2.7777777777777777
+      },
+      "relativeHumidity": {
+        "unitCode": "wmoUnit:percent",
+        "value": 76
+      },
+      "windSpeed": "5 to 8 mph",
+      "windDirection": "SW",
+      "icon": "https://api.weather.gov/icons/land/day/snow,100?size=medium",
+      "shortForecast": "Heavy Snow",
+      "detailedForecast": "Snow. Cloudy. High near 36, with temperatures falling to around 33 in the afternoon. Southwest wind 5 to 8 mph. Chance of precipitation is 100%. New snow accumulation of 3 to 7 inches possible."
+    }
+  ]
+}
