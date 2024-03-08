@@ -1,0 +1,93 @@
+{
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      -121.4842,
+      48.4636
+    ]
+  },
+  "relativeLocation": {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -121.437344,
+        48.536031
+      ]
+    },
+    "properties": {
+      "city": "Marblemount",
+      "state": "WA",
+      "distance": {
+        "unitCode": "wmoUnit:m",
+        "value": 8762.7210443436
+      },
+      "bearing": {
+        "unitCode": "wmoUnit:degree_(angle)",
+        "value": 203
+      }
+    },
+    "elevation": {
+      "unitCode": "wmoUnit:m",
+      "value": 448.9704
+    }
+  },
+  "updated": "2024-03-08T04:40:22+00:00",
+  "forecastGenerator": "BaselineForecastGenerator",
+  "forecast": [
+    {
+      "number": 1,
+      "name": "Tonight",
+      "startTime": "2024-03-07T22:00:00-08:00",
+      "endTime": "2024-03-08T06:00:00-08:00",
+      "isDaytime": false,
+      "temperature": 34,
+      "temperatureUnit": "F",
+      "temperatureTrend": "rising",
+      "probabilityOfPrecipitation": {
+        "unitCode": "wmoUnit:percent",
+        "value": 30
+      },
+      "dewpoint": {
+        "unitCode": "wmoUnit:degC",
+        "value": -3.888888888888889
+      },
+      "relativeHumidity": {
+        "unitCode": "wmoUnit:percent",
+        "value": 61
+      },
+      "windSpeed": "2 mph",
+      "windDirection": "ESE",
+      "icon": "https://api.weather.gov/icons/land/night/bkn/snow,30?size=medium",
+      "shortForecast": "Mostly Cloudy then Chance Rain And Snow",
+      "detailedForecast": "A chance of rain and snow after 2am. Mostly cloudy. Low around 34, with temperatures rising to around 37 overnight. East southeast wind around 2 mph. Chance of precipitation is 30%. New rainfall amounts less than a tenth of an inch possible."
+    },
+    {
+      "number": 2,
+      "name": "Friday",
+      "startTime": "2024-03-08T06:00:00-08:00",
+      "endTime": "2024-03-08T18:00:00-08:00",
+      "isDaytime": true,
+      "temperature": 47,
+      "temperatureUnit": "F",
+      "temperatureTrend": null,
+      "probabilityOfPrecipitation": {
+        "unitCode": "wmoUnit:percent",
+        "value": 70
+      },
+      "dewpoint": {
+        "unitCode": "wmoUnit:degC",
+        "value": 3.3333333333333335
+      },
+      "relativeHumidity": {
+        "unitCode": "wmoUnit:percent",
+        "value": 75
+      },
+      "windSpeed": "5 mph",
+      "windDirection": "E",
+      "icon": "https://api.weather.gov/icons/land/day/snow,70/snow,60?size=medium",
+      "shortForecast": "Rain And Snow Likely",
+      "detailedForecast": "Rain and snow likely. Cloudy, with a high near 47. East wind around 5 mph. Chance of precipitation is 70%. New rainfall amounts less than a tenth of an inch possible."
+    }
+  ]
+}
