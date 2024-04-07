@@ -1,0 +1,93 @@
+{
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      -122.257,
+      48.6406
+    ]
+  },
+  "relativeLocation": {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -122.329311,
+        48.610394
+      ]
+    },
+    "properties": {
+      "city": "Alger",
+      "state": "WA",
+      "distance": {
+        "unitCode": "wmoUnit:m",
+        "value": 6287.0546938371
+      },
+      "bearing": {
+        "unitCode": "wmoUnit:degree_(angle)",
+        "value": 57
+      }
+    },
+    "elevation": {
+      "unitCode": "wmoUnit:m",
+      "value": 919.8864
+    }
+  },
+  "updated": "2024-04-07T04:41:44+00:00",
+  "forecastGenerator": "BaselineForecastGenerator",
+  "forecast": [
+    {
+      "number": 1,
+      "name": "Tonight",
+      "startTime": "2024-04-06T23:00:00-07:00",
+      "endTime": "2024-04-07T06:00:00-07:00",
+      "isDaytime": false,
+      "temperature": 34,
+      "temperatureUnit": "F",
+      "temperatureTrend": null,
+      "probabilityOfPrecipitation": {
+        "unitCode": "wmoUnit:percent",
+        "value": 80
+      },
+      "dewpoint": {
+        "unitCode": "wmoUnit:degC",
+        "value": 1.1111111111111112
+      },
+      "relativeHumidity": {
+        "unitCode": "wmoUnit:percent",
+        "value": 90
+      },
+      "windSpeed": "12 mph",
+      "windDirection": "SSW",
+      "icon": "https://api.weather.gov/icons/land/night/snow,80/snow,70?size=medium",
+      "shortForecast": "Rain And Snow then Rain And Snow Likely",
+      "detailedForecast": "Rain and snow before midnight, then rain and snow likely between midnight and 2am, then rain and snow likely. Mostly cloudy, with a low around 34. South southwest wind around 12 mph. Chance of precipitation is 80%. New rainfall amounts between a tenth and quarter of an inch possible."
+    },
+    {
+      "number": 2,
+      "name": "Sunday",
+      "startTime": "2024-04-07T06:00:00-07:00",
+      "endTime": "2024-04-07T18:00:00-07:00",
+      "isDaytime": true,
+      "temperature": 41,
+      "temperatureUnit": "F",
+      "temperatureTrend": null,
+      "probabilityOfPrecipitation": {
+        "unitCode": "wmoUnit:percent",
+        "value": 80
+      },
+      "dewpoint": {
+        "unitCode": "wmoUnit:degC",
+        "value": 1.1111111111111112
+      },
+      "relativeHumidity": {
+        "unitCode": "wmoUnit:percent",
+        "value": 91
+      },
+      "windSpeed": "8 to 13 mph",
+      "windDirection": "SSW",
+      "icon": "https://api.weather.gov/icons/land/day/snow,60/snow,80?size=medium",
+      "shortForecast": "Rain And Snow",
+      "detailedForecast": "Rain and snow. Mostly cloudy, with a high near 41. South southwest wind 8 to 13 mph. Chance of precipitation is 80%. New rainfall amounts less than a tenth of an inch possible."
+    }
+  ]
+}
