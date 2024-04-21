@@ -1,0 +1,93 @@
+{
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      -121.4842,
+      48.4636
+    ]
+  },
+  "relativeLocation": {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -121.437344,
+        48.536031
+      ]
+    },
+    "properties": {
+      "city": "Marblemount",
+      "state": "WA",
+      "distance": {
+        "unitCode": "wmoUnit:m",
+        "value": 8762.7210443436
+      },
+      "bearing": {
+        "unitCode": "wmoUnit:degree_(angle)",
+        "value": 203
+      }
+    },
+    "elevation": {
+      "unitCode": "wmoUnit:m",
+      "value": 448.9704
+    }
+  },
+  "updated": "2024-04-21T04:40:24+00:00",
+  "forecastGenerator": "BaselineForecastGenerator",
+  "forecast": [
+    {
+      "number": 1,
+      "name": "Tonight",
+      "startTime": "2024-04-20T23:00:00-07:00",
+      "endTime": "2024-04-21T06:00:00-07:00",
+      "isDaytime": false,
+      "temperature": 40,
+      "temperatureUnit": "F",
+      "temperatureTrend": null,
+      "probabilityOfPrecipitation": {
+        "unitCode": "wmoUnit:percent",
+        "value": 60
+      },
+      "dewpoint": {
+        "unitCode": "wmoUnit:degC",
+        "value": 2.2222222222222223
+      },
+      "relativeHumidity": {
+        "unitCode": "wmoUnit:percent",
+        "value": 83
+      },
+      "windSpeed": "8 to 15 mph",
+      "windDirection": "SW",
+      "icon": "https://api.weather.gov/icons/land/night/snow,50/snow,60?size=medium",
+      "shortForecast": "Rain And Snow Likely",
+      "detailedForecast": "Rain and snow likely. Mostly cloudy, with a low around 40. Southwest wind 8 to 15 mph, with gusts as high as 22 mph. Chance of precipitation is 60%. New rainfall amounts between a tenth and quarter of an inch possible."
+    },
+    {
+      "number": 2,
+      "name": "Sunday",
+      "startTime": "2024-04-21T06:00:00-07:00",
+      "endTime": "2024-04-21T18:00:00-07:00",
+      "isDaytime": true,
+      "temperature": 48,
+      "temperatureUnit": "F",
+      "temperatureTrend": null,
+      "probabilityOfPrecipitation": {
+        "unitCode": "wmoUnit:percent",
+        "value": 90
+      },
+      "dewpoint": {
+        "unitCode": "wmoUnit:degC",
+        "value": 3.888888888888889
+      },
+      "relativeHumidity": {
+        "unitCode": "wmoUnit:percent",
+        "value": 83
+      },
+      "windSpeed": "8 mph",
+      "windDirection": "WSW",
+      "icon": "https://api.weather.gov/icons/land/day/snow,90/snow,80?size=medium",
+      "shortForecast": "Rain And Snow",
+      "detailedForecast": "A chance of rain and snow before 8am, then a chance of rain and snow between 8am and 9am, then rain and snow between 9am and 11am, then rain and snow between 11am and noon, then rain and snow between noon and 5pm. Mostly cloudy, with a high near 48. West southwest wind around 8 mph. Chance of precipitation is 90%. New rainfall amounts less than a tenth of an inch possible."
+    }
+  ]
+}
