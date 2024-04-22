@@ -1,0 +1,93 @@
+{
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      -122.257,
+      48.6406
+    ]
+  },
+  "relativeLocation": {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -122.329311,
+        48.610394
+      ]
+    },
+    "properties": {
+      "city": "Alger",
+      "state": "WA",
+      "distance": {
+        "unitCode": "wmoUnit:m",
+        "value": 6287.0546938371
+      },
+      "bearing": {
+        "unitCode": "wmoUnit:degree_(angle)",
+        "value": 57
+      }
+    },
+    "elevation": {
+      "unitCode": "wmoUnit:m",
+      "value": 919.8864
+    }
+  },
+  "updated": "2024-04-22T04:40:24+00:00",
+  "forecastGenerator": "BaselineForecastGenerator",
+  "forecast": [
+    {
+      "number": 1,
+      "name": "Tonight",
+      "startTime": "2024-04-21T23:00:00-07:00",
+      "endTime": "2024-04-22T06:00:00-07:00",
+      "isDaytime": false,
+      "temperature": 32,
+      "temperatureUnit": "F",
+      "temperatureTrend": null,
+      "probabilityOfPrecipitation": {
+        "unitCode": "wmoUnit:percent",
+        "value": null
+      },
+      "dewpoint": {
+        "unitCode": "wmoUnit:degC",
+        "value": -0.5555555555555556
+      },
+      "relativeHumidity": {
+        "unitCode": "wmoUnit:percent",
+        "value": 85
+      },
+      "windSpeed": "6 to 12 mph",
+      "windDirection": "NW",
+      "icon": "https://api.weather.gov/icons/land/night/bkn?size=medium",
+      "shortForecast": "Mostly Cloudy",
+      "detailedForecast": "Mostly cloudy, with a low around 32. Northwest wind 6 to 12 mph."
+    },
+    {
+      "number": 2,
+      "name": "Monday",
+      "startTime": "2024-04-22T06:00:00-07:00",
+      "endTime": "2024-04-22T18:00:00-07:00",
+      "isDaytime": true,
+      "temperature": 51,
+      "temperatureUnit": "F",
+      "temperatureTrend": null,
+      "probabilityOfPrecipitation": {
+        "unitCode": "wmoUnit:percent",
+        "value": null
+      },
+      "dewpoint": {
+        "unitCode": "wmoUnit:degC",
+        "value": 1.1111111111111112
+      },
+      "relativeHumidity": {
+        "unitCode": "wmoUnit:percent",
+        "value": 83
+      },
+      "windSpeed": "6 to 12 mph",
+      "windDirection": "NNE",
+      "icon": "https://api.weather.gov/icons/land/day/few?size=medium",
+      "shortForecast": "Sunny",
+      "detailedForecast": "Sunny, with a high near 51. North northeast wind 6 to 12 mph."
+    }
+  ]
+}
