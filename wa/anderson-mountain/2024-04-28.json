@@ -1,0 +1,93 @@
+{
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      -122.257,
+      48.6406
+    ]
+  },
+  "relativeLocation": {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -122.329311,
+        48.610394
+      ]
+    },
+    "properties": {
+      "city": "Alger",
+      "state": "WA",
+      "distance": {
+        "unitCode": "wmoUnit:m",
+        "value": 6287.0546938371
+      },
+      "bearing": {
+        "unitCode": "wmoUnit:degree_(angle)",
+        "value": 57
+      }
+    },
+    "elevation": {
+      "unitCode": "wmoUnit:m",
+      "value": 919.8864
+    }
+  },
+  "updated": "2024-04-28T04:40:18+00:00",
+  "forecastGenerator": "BaselineForecastGenerator",
+  "forecast": [
+    {
+      "number": 1,
+      "name": "Tonight",
+      "startTime": "2024-04-27T23:00:00-07:00",
+      "endTime": "2024-04-28T06:00:00-07:00",
+      "isDaytime": false,
+      "temperature": 37,
+      "temperatureUnit": "F",
+      "temperatureTrend": null,
+      "probabilityOfPrecipitation": {
+        "unitCode": "wmoUnit:percent",
+        "value": 90
+      },
+      "dewpoint": {
+        "unitCode": "wmoUnit:degC",
+        "value": 3.888888888888889
+      },
+      "relativeHumidity": {
+        "unitCode": "wmoUnit:percent",
+        "value": 91
+      },
+      "windSpeed": "5 to 13 mph",
+      "windDirection": "SSW",
+      "icon": "https://api.weather.gov/icons/land/night/rain_showers,90/snow,90?size=medium",
+      "shortForecast": "Rain Showers then Rain And Snow Showers",
+      "detailedForecast": "Rain showers before midnight, then rain showers and patchy fog between midnight and 5am, then rain and snow showers. Cloudy, with a low around 37. South southwest wind 5 to 13 mph. Chance of precipitation is 90%. New rainfall amounts between a quarter and half of an inch possible."
+    },
+    {
+      "number": 2,
+      "name": "Sunday",
+      "startTime": "2024-04-28T06:00:00-07:00",
+      "endTime": "2024-04-28T18:00:00-07:00",
+      "isDaytime": true,
+      "temperature": 40,
+      "temperatureUnit": "F",
+      "temperatureTrend": "falling",
+      "probabilityOfPrecipitation": {
+        "unitCode": "wmoUnit:percent",
+        "value": 100
+      },
+      "dewpoint": {
+        "unitCode": "wmoUnit:degC",
+        "value": 2.7777777777777777
+      },
+      "relativeHumidity": {
+        "unitCode": "wmoUnit:percent",
+        "value": 94
+      },
+      "windSpeed": "7 to 12 mph",
+      "windDirection": "SSW",
+      "icon": "https://api.weather.gov/icons/land/day/snow,100?size=medium",
+      "shortForecast": "Rain And Snow Showers",
+      "detailedForecast": "Rain and snow showers before 5pm, then snow showers and a slight chance of thunderstorms. Cloudy. High near 40, with temperatures falling to around 38 in the afternoon. South southwest wind 7 to 12 mph. Chance of precipitation is 100%. New rainfall amounts between a half and three quarters of an inch possible."
+    }
+  ]
+}
