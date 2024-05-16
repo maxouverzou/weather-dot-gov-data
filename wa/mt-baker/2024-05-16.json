@@ -1,0 +1,93 @@
+{
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      -121.4842,
+      48.4636
+    ]
+  },
+  "relativeLocation": {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -121.437344,
+        48.536031
+      ]
+    },
+    "properties": {
+      "city": "Marblemount",
+      "state": "WA",
+      "distance": {
+        "unitCode": "wmoUnit:m",
+        "value": 8762.7210443436
+      },
+      "bearing": {
+        "unitCode": "wmoUnit:degree_(angle)",
+        "value": 203
+      }
+    },
+    "elevation": {
+      "unitCode": "wmoUnit:m",
+      "value": 448.9704
+    }
+  },
+  "updated": "2024-05-16T04:40:26+00:00",
+  "forecastGenerator": "BaselineForecastGenerator",
+  "forecast": [
+    {
+      "number": 1,
+      "name": "Tonight",
+      "startTime": "2024-05-15T23:00:00-07:00",
+      "endTime": "2024-05-16T06:00:00-07:00",
+      "isDaytime": false,
+      "temperature": 51,
+      "temperatureUnit": "F",
+      "temperatureTrend": null,
+      "probabilityOfPrecipitation": {
+        "unitCode": "wmoUnit:percent",
+        "value": null
+      },
+      "dewpoint": {
+        "unitCode": "wmoUnit:degC",
+        "value": 8.88888888888889
+      },
+      "relativeHumidity": {
+        "unitCode": "wmoUnit:percent",
+        "value": 79
+      },
+      "windSpeed": "1 to 7 mph",
+      "windDirection": "SW",
+      "icon": "https://api.weather.gov/icons/land/night/bkn?size=medium",
+      "shortForecast": "Mostly Cloudy",
+      "detailedForecast": "Mostly cloudy, with a low around 51. Southwest wind 1 to 7 mph. New rainfall amounts less than a tenth of an inch possible."
+    },
+    {
+      "number": 2,
+      "name": "Thursday",
+      "startTime": "2024-05-16T06:00:00-07:00",
+      "endTime": "2024-05-16T18:00:00-07:00",
+      "isDaytime": true,
+      "temperature": 54,
+      "temperatureUnit": "F",
+      "temperatureTrend": "falling",
+      "probabilityOfPrecipitation": {
+        "unitCode": "wmoUnit:percent",
+        "value": 90
+      },
+      "dewpoint": {
+        "unitCode": "wmoUnit:degC",
+        "value": 10.555555555555555
+      },
+      "relativeHumidity": {
+        "unitCode": "wmoUnit:percent",
+        "value": 91
+      },
+      "windSpeed": "7 to 10 mph",
+      "windDirection": "SW",
+      "icon": "https://api.weather.gov/icons/land/day/rain_showers,70/rain_showers,90?size=medium",
+      "shortForecast": "Rain Showers",
+      "detailedForecast": "Rain showers. Cloudy. High near 54, with temperatures falling to around 52 in the afternoon. Southwest wind 7 to 10 mph. Chance of precipitation is 90%. New rainfall amounts between a quarter and half of an inch possible."
+    }
+  ]
+}
