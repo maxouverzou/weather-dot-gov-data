@@ -1,0 +1,93 @@
+{
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      -121.4842,
+      48.4636
+    ]
+  },
+  "relativeLocation": {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -121.437344,
+        48.536031
+      ]
+    },
+    "properties": {
+      "city": "Marblemount",
+      "state": "WA",
+      "distance": {
+        "unitCode": "wmoUnit:m",
+        "value": 8762.7210443436
+      },
+      "bearing": {
+        "unitCode": "wmoUnit:degree_(angle)",
+        "value": 203
+      }
+    },
+    "elevation": {
+      "unitCode": "wmoUnit:m",
+      "value": 448.9704
+    }
+  },
+  "updated": "2024-06-01T04:40:27+00:00",
+  "forecastGenerator": "BaselineForecastGenerator",
+  "forecast": [
+    {
+      "number": 1,
+      "name": "Tonight",
+      "startTime": "2024-05-31T23:00:00-07:00",
+      "endTime": "2024-06-01T06:00:00-07:00",
+      "isDaytime": false,
+      "temperature": 51,
+      "temperatureUnit": "F",
+      "temperatureTrend": null,
+      "probabilityOfPrecipitation": {
+        "unitCode": "wmoUnit:percent",
+        "value": 70
+      },
+      "dewpoint": {
+        "unitCode": "wmoUnit:degC",
+        "value": 7.777777777777778
+      },
+      "relativeHumidity": {
+        "unitCode": "wmoUnit:percent",
+        "value": 74
+      },
+      "windSpeed": "3 mph",
+      "windDirection": "SSE",
+      "icon": "https://api.weather.gov/icons/land/night/bkn/rain,70?size=medium",
+      "shortForecast": "Mostly Cloudy then Light Rain Likely",
+      "detailedForecast": "Rain likely after 2am. Mostly cloudy, with a low around 51. South southeast wind around 3 mph. Chance of precipitation is 70%. New rainfall amounts less than a tenth of an inch possible."
+    },
+    {
+      "number": 2,
+      "name": "Saturday",
+      "startTime": "2024-06-01T06:00:00-07:00",
+      "endTime": "2024-06-01T18:00:00-07:00",
+      "isDaytime": true,
+      "temperature": 57,
+      "temperatureUnit": "F",
+      "temperatureTrend": null,
+      "probabilityOfPrecipitation": {
+        "unitCode": "wmoUnit:percent",
+        "value": 80
+      },
+      "dewpoint": {
+        "unitCode": "wmoUnit:degC",
+        "value": 11.11111111111111
+      },
+      "relativeHumidity": {
+        "unitCode": "wmoUnit:percent",
+        "value": 86
+      },
+      "windSpeed": "5 mph",
+      "windDirection": "SSW",
+      "icon": "https://api.weather.gov/icons/land/day/rain,80/rain,40?size=medium",
+      "shortForecast": "Light Rain",
+      "detailedForecast": "Rain. Mostly cloudy, with a high near 57. South southwest wind around 5 mph. Chance of precipitation is 80%. New rainfall amounts between a tenth and quarter of an inch possible."
+    }
+  ]
+}
