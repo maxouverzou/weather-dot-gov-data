@@ -1,0 +1,93 @@
+{
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      -121.4842,
+      48.4636
+    ]
+  },
+  "relativeLocation": {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -121.437344,
+        48.536031
+      ]
+    },
+    "properties": {
+      "city": "Marblemount",
+      "state": "WA",
+      "distance": {
+        "unitCode": "wmoUnit:m",
+        "value": 8762.7210443436
+      },
+      "bearing": {
+        "unitCode": "wmoUnit:degree_(angle)",
+        "value": 203
+      }
+    },
+    "elevation": {
+      "unitCode": "wmoUnit:m",
+      "value": 448.9704
+    }
+  },
+  "updated": "2024-06-08T04:40:22+00:00",
+  "forecastGenerator": "BaselineForecastGenerator",
+  "forecast": [
+    {
+      "number": 1,
+      "name": "Tonight",
+      "startTime": "2024-06-07T23:00:00-07:00",
+      "endTime": "2024-06-08T06:00:00-07:00",
+      "isDaytime": false,
+      "temperature": 58,
+      "temperatureUnit": "F",
+      "temperatureTrend": null,
+      "probabilityOfPrecipitation": {
+        "unitCode": "wmoUnit:percent",
+        "value": null
+      },
+      "dewpoint": {
+        "unitCode": "wmoUnit:degC",
+        "value": 9.444444444444445
+      },
+      "relativeHumidity": {
+        "unitCode": "wmoUnit:percent",
+        "value": 60
+      },
+      "windSpeed": "5 mph",
+      "windDirection": "ENE",
+      "icon": "https://api.weather.gov/icons/land/night/skc?size=medium",
+      "shortForecast": "Clear",
+      "detailedForecast": "Clear, with a low around 58. East northeast wind around 5 mph."
+    },
+    {
+      "number": 2,
+      "name": "Saturday",
+      "startTime": "2024-06-08T06:00:00-07:00",
+      "endTime": "2024-06-08T18:00:00-07:00",
+      "isDaytime": true,
+      "temperature": 80,
+      "temperatureUnit": "F",
+      "temperatureTrend": "falling",
+      "probabilityOfPrecipitation": {
+        "unitCode": "wmoUnit:percent",
+        "value": null
+      },
+      "dewpoint": {
+        "unitCode": "wmoUnit:degC",
+        "value": 15
+      },
+      "relativeHumidity": {
+        "unitCode": "wmoUnit:percent",
+        "value": 53
+      },
+      "windSpeed": "2 to 6 mph",
+      "windDirection": "WNW",
+      "icon": "https://api.weather.gov/icons/land/day/sct?size=medium",
+      "shortForecast": "Mostly Sunny",
+      "detailedForecast": "Mostly sunny. High near 80, with temperatures falling to around 77 in the afternoon. West northwest wind 2 to 6 mph."
+    }
+  ]
+}
