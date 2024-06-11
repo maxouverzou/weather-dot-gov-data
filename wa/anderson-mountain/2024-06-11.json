@@ -1,0 +1,93 @@
+{
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      -122.257,
+      48.6406
+    ]
+  },
+  "relativeLocation": {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -122.329311,
+        48.610394
+      ]
+    },
+    "properties": {
+      "city": "Alger",
+      "state": "WA",
+      "distance": {
+        "unitCode": "wmoUnit:m",
+        "value": 6287.0546938371
+      },
+      "bearing": {
+        "unitCode": "wmoUnit:degree_(angle)",
+        "value": 57
+      }
+    },
+    "elevation": {
+      "unitCode": "wmoUnit:m",
+      "value": 919.8864
+    }
+  },
+  "updated": "2024-06-11T04:40:22+00:00",
+  "forecastGenerator": "BaselineForecastGenerator",
+  "forecast": [
+    {
+      "number": 1,
+      "name": "Tonight",
+      "startTime": "2024-06-10T23:00:00-07:00",
+      "endTime": "2024-06-11T06:00:00-07:00",
+      "isDaytime": false,
+      "temperature": 47,
+      "temperatureUnit": "F",
+      "temperatureTrend": "rising",
+      "probabilityOfPrecipitation": {
+        "unitCode": "wmoUnit:percent",
+        "value": 30
+      },
+      "dewpoint": {
+        "unitCode": "wmoUnit:degC",
+        "value": 5.555555555555555
+      },
+      "relativeHumidity": {
+        "unitCode": "wmoUnit:percent",
+        "value": 69
+      },
+      "windSpeed": "6 mph",
+      "windDirection": "SSE",
+      "icon": "https://api.weather.gov/icons/land/night/bkn/rain,30?size=medium",
+      "shortForecast": "Mostly Cloudy then Chance Drizzle",
+      "detailedForecast": "A chance of drizzle after 5am. Mostly cloudy. Low around 47, with temperatures rising to around 49 overnight. South southeast wind around 6 mph. Chance of precipitation is 30%. New rainfall amounts less than a tenth of an inch possible."
+    },
+    {
+      "number": 2,
+      "name": "Tuesday",
+      "startTime": "2024-06-11T06:00:00-07:00",
+      "endTime": "2024-06-11T18:00:00-07:00",
+      "isDaytime": true,
+      "temperature": 54,
+      "temperatureUnit": "F",
+      "temperatureTrend": "falling",
+      "probabilityOfPrecipitation": {
+        "unitCode": "wmoUnit:percent",
+        "value": 60
+      },
+      "dewpoint": {
+        "unitCode": "wmoUnit:degC",
+        "value": 7.222222222222222
+      },
+      "relativeHumidity": {
+        "unitCode": "wmoUnit:percent",
+        "value": 82
+      },
+      "windSpeed": "6 to 14 mph",
+      "windDirection": "SSW",
+      "icon": "https://api.weather.gov/icons/land/day/rain_showers,60/rain,20?size=medium",
+      "shortForecast": "Rain Showers Likely then Chance Drizzle",
+      "detailedForecast": "Drizzle likely before 7am, then rain showers likely between 7am and 8am, then a chance of drizzle between 8am and 3pm. Mostly cloudy. High near 54, with temperatures falling to around 52 in the afternoon. South southwest wind 6 to 14 mph. Chance of precipitation is 60%. New rainfall amounts less than a tenth of an inch possible."
+    }
+  ]
+}
