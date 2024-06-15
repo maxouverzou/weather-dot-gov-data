@@ -1,0 +1,93 @@
+{
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      -122.257,
+      48.6406
+    ]
+  },
+  "relativeLocation": {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -122.329311,
+        48.610394
+      ]
+    },
+    "properties": {
+      "city": "Alger",
+      "state": "WA",
+      "distance": {
+        "unitCode": "wmoUnit:m",
+        "value": 6287.0546938371
+      },
+      "bearing": {
+        "unitCode": "wmoUnit:degree_(angle)",
+        "value": 57
+      }
+    },
+    "elevation": {
+      "unitCode": "wmoUnit:m",
+      "value": 919.8864
+    }
+  },
+  "updated": "2024-06-15T04:40:28+00:00",
+  "forecastGenerator": "BaselineForecastGenerator",
+  "forecast": [
+    {
+      "number": 1,
+      "name": "Tonight",
+      "startTime": "2024-06-14T23:00:00-07:00",
+      "endTime": "2024-06-15T06:00:00-07:00",
+      "isDaytime": false,
+      "temperature": 39,
+      "temperatureUnit": "F",
+      "temperatureTrend": "rising",
+      "probabilityOfPrecipitation": {
+        "unitCode": "wmoUnit:percent",
+        "value": 90
+      },
+      "dewpoint": {
+        "unitCode": "wmoUnit:degC",
+        "value": 3.888888888888889
+      },
+      "relativeHumidity": {
+        "unitCode": "wmoUnit:percent",
+        "value": 87
+      },
+      "windSpeed": "6 mph",
+      "windDirection": "S",
+      "icon": "https://api.weather.gov/icons/land/night/tsra,50/tsra,90?size=medium",
+      "shortForecast": "Showers And Thunderstorms",
+      "detailedForecast": "Showers and thunderstorms. Cloudy. Low around 39, with temperatures rising to around 41 overnight. South wind around 6 mph. Chance of precipitation is 90%. New rainfall amounts between a quarter and half of an inch possible."
+    },
+    {
+      "number": 2,
+      "name": "Saturday",
+      "startTime": "2024-06-15T06:00:00-07:00",
+      "endTime": "2024-06-15T18:00:00-07:00",
+      "isDaytime": true,
+      "temperature": 48,
+      "temperatureUnit": "F",
+      "temperatureTrend": null,
+      "probabilityOfPrecipitation": {
+        "unitCode": "wmoUnit:percent",
+        "value": 100
+      },
+      "dewpoint": {
+        "unitCode": "wmoUnit:degC",
+        "value": 5
+      },
+      "relativeHumidity": {
+        "unitCode": "wmoUnit:percent",
+        "value": 93
+      },
+      "windSpeed": "5 to 9 mph",
+      "windDirection": "SSW",
+      "icon": "https://api.weather.gov/icons/land/day/tsra,100/tsra,70?size=medium",
+      "shortForecast": "Showers And Thunderstorms",
+      "detailedForecast": "Showers and thunderstorms before 1pm, then a chance of showers and thunderstorms between 1pm and 5pm, then showers and thunderstorms likely. Mostly cloudy, with a high near 48. South southwest wind 5 to 9 mph. Chance of precipitation is 100%. New rainfall amounts between a tenth and quarter of an inch possible."
+    }
+  ]
+}
