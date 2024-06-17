@@ -1,0 +1,93 @@
+{
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      -122.257,
+      48.6406
+    ]
+  },
+  "relativeLocation": {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -122.329311,
+        48.610394
+      ]
+    },
+    "properties": {
+      "city": "Alger",
+      "state": "WA",
+      "distance": {
+        "unitCode": "wmoUnit:m",
+        "value": 6287.0546938371
+      },
+      "bearing": {
+        "unitCode": "wmoUnit:degree_(angle)",
+        "value": 57
+      }
+    },
+    "elevation": {
+      "unitCode": "wmoUnit:m",
+      "value": 919.8864
+    }
+  },
+  "updated": "2024-06-17T04:40:19+00:00",
+  "forecastGenerator": "BaselineForecastGenerator",
+  "forecast": [
+    {
+      "number": 1,
+      "name": "Tonight",
+      "startTime": "2024-06-16T23:00:00-07:00",
+      "endTime": "2024-06-17T06:00:00-07:00",
+      "isDaytime": false,
+      "temperature": 41,
+      "temperatureUnit": "F",
+      "temperatureTrend": null,
+      "probabilityOfPrecipitation": {
+        "unitCode": "wmoUnit:percent",
+        "value": 40
+      },
+      "dewpoint": {
+        "unitCode": "wmoUnit:degC",
+        "value": 3.888888888888889
+      },
+      "relativeHumidity": {
+        "unitCode": "wmoUnit:percent",
+        "value": 89
+      },
+      "windSpeed": "5 mph",
+      "windDirection": "S",
+      "icon": "https://api.weather.gov/icons/land/night/rain_showers,30/rain_showers,40?size=medium",
+      "shortForecast": "Chance Rain Showers",
+      "detailedForecast": "A chance of rain showers. Mostly cloudy, with a low around 41. South wind around 5 mph. Chance of precipitation is 40%. New rainfall amounts less than a tenth of an inch possible."
+    },
+    {
+      "number": 2,
+      "name": "Monday",
+      "startTime": "2024-06-17T06:00:00-07:00",
+      "endTime": "2024-06-17T18:00:00-07:00",
+      "isDaytime": true,
+      "temperature": 51,
+      "temperatureUnit": "F",
+      "temperatureTrend": null,
+      "probabilityOfPrecipitation": {
+        "unitCode": "wmoUnit:percent",
+        "value": 30
+      },
+      "dewpoint": {
+        "unitCode": "wmoUnit:degC",
+        "value": 7.222222222222222
+      },
+      "relativeHumidity": {
+        "unitCode": "wmoUnit:percent",
+        "value": 92
+      },
+      "windSpeed": "5 to 8 mph",
+      "windDirection": "SSW",
+      "icon": "https://api.weather.gov/icons/land/day/rain_showers,30/bkn?size=medium",
+      "shortForecast": "Chance Rain Showers then Mostly Cloudy",
+      "detailedForecast": "A chance of rain showers before 11am. Mostly cloudy, with a high near 51. South southwest wind 5 to 8 mph. Chance of precipitation is 30%. New rainfall amounts less than a tenth of an inch possible."
+    }
+  ]
+}
