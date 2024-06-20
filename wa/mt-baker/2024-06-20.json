@@ -1,0 +1,93 @@
+{
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      -121.4842,
+      48.4636
+    ]
+  },
+  "relativeLocation": {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -121.437344,
+        48.536031
+      ]
+    },
+    "properties": {
+      "city": "Marblemount",
+      "state": "WA",
+      "distance": {
+        "unitCode": "wmoUnit:m",
+        "value": 8762.7210443436
+      },
+      "bearing": {
+        "unitCode": "wmoUnit:degree_(angle)",
+        "value": 203
+      }
+    },
+    "elevation": {
+      "unitCode": "wmoUnit:m",
+      "value": 448.9704
+    }
+  },
+  "updated": "2024-06-20T04:40:21+00:00",
+  "forecastGenerator": "BaselineForecastGenerator",
+  "forecast": [
+    {
+      "number": 1,
+      "name": "Tonight",
+      "startTime": "2024-06-19T23:00:00-07:00",
+      "endTime": "2024-06-20T06:00:00-07:00",
+      "isDaytime": false,
+      "temperature": 56,
+      "temperatureUnit": "F",
+      "temperatureTrend": null,
+      "probabilityOfPrecipitation": {
+        "unitCode": "wmoUnit:percent",
+        "value": null
+      },
+      "dewpoint": {
+        "unitCode": "wmoUnit:degC",
+        "value": 8.333333333333334
+      },
+      "relativeHumidity": {
+        "unitCode": "wmoUnit:percent",
+        "value": 60
+      },
+      "windSpeed": "5 mph",
+      "windDirection": "E",
+      "icon": "https://api.weather.gov/icons/land/night/skc?size=medium",
+      "shortForecast": "Clear",
+      "detailedForecast": "Clear, with a low around 56. East wind around 5 mph."
+    },
+    {
+      "number": 2,
+      "name": "Thursday",
+      "startTime": "2024-06-20T06:00:00-07:00",
+      "endTime": "2024-06-20T18:00:00-07:00",
+      "isDaytime": true,
+      "temperature": 79,
+      "temperatureUnit": "F",
+      "temperatureTrend": null,
+      "probabilityOfPrecipitation": {
+        "unitCode": "wmoUnit:percent",
+        "value": null
+      },
+      "dewpoint": {
+        "unitCode": "wmoUnit:degC",
+        "value": 8.88888888888889
+      },
+      "relativeHumidity": {
+        "unitCode": "wmoUnit:percent",
+        "value": 57
+      },
+      "windSpeed": "5 mph",
+      "windDirection": "NNE",
+      "icon": "https://api.weather.gov/icons/land/day/skc?size=medium",
+      "shortForecast": "Sunny",
+      "detailedForecast": "Sunny, with a high near 79. North northeast wind around 5 mph."
+    }
+  ]
+}
