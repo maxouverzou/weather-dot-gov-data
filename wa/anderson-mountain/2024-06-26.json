@@ -1,0 +1,77 @@
+{
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      -122.257,
+      48.6406
+    ]
+  },
+  "relativeLocation": {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -122.329311,
+        48.610394
+      ]
+    },
+    "properties": {
+      "city": "Alger",
+      "state": "WA",
+      "distance": {
+        "unitCode": "wmoUnit:m",
+        "value": 6287.0546938371
+      },
+      "bearing": {
+        "unitCode": "wmoUnit:degree_(angle)",
+        "value": 57
+      }
+    },
+    "elevation": {
+      "unitCode": "wmoUnit:m",
+      "value": 919.8864
+    }
+  },
+  "updated": null,
+  "forecastGenerator": "BaselineForecastGenerator",
+  "forecast": [
+    {
+      "number": 1,
+      "name": "Tonight",
+      "startTime": "2024-06-25T23:00:00-07:00",
+      "endTime": "2024-06-26T06:00:00-07:00",
+      "isDaytime": false,
+      "temperature": 53,
+      "temperatureUnit": "F",
+      "temperatureTrend": "",
+      "probabilityOfPrecipitation": {
+        "unitCode": "wmoUnit:percent",
+        "value": null
+      },
+      "windSpeed": "1 to 7 mph",
+      "windDirection": "SSE",
+      "icon": "/icons/land/night/bkn?size=medium",
+      "shortForecast": "Mostly Cloudy",
+      "detailedForecast": "Mostly cloudy, with a low around 53. South southeast wind 1 to 7 mph."
+    },
+    {
+      "number": 2,
+      "name": "Wednesday",
+      "startTime": "2024-06-26T06:00:00-07:00",
+      "endTime": "2024-06-26T18:00:00-07:00",
+      "isDaytime": true,
+      "temperature": 58,
+      "temperatureUnit": "F",
+      "temperatureTrend": "",
+      "probabilityOfPrecipitation": {
+        "unitCode": "wmoUnit:percent",
+        "value": 90
+      },
+      "windSpeed": "7 to 16 mph",
+      "windDirection": "SSW",
+      "icon": "/icons/land/day/rain,40/tsra,90?size=medium",
+      "shortForecast": "Chance Light Rain then Showers And Thunderstorms",
+      "detailedForecast": "A chance of rain between 10am and noon, then showers and thunderstorms. Mostly cloudy. High near 58, with temperatures falling to around 54 in the afternoon. South southwest wind 7 to 16 mph. Chance of precipitation is 90%. New rainfall amounts between a quarter and half of an inch possible."
+    }
+  ]
+}
