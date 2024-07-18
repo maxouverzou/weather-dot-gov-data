@@ -1,0 +1,77 @@
+{
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      -121.4842,
+      48.4636
+    ]
+  },
+  "relativeLocation": {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -121.437344,
+        48.536031
+      ]
+    },
+    "properties": {
+      "city": "Marblemount",
+      "state": "WA",
+      "distance": {
+        "unitCode": "wmoUnit:m",
+        "value": 8762.7210443436
+      },
+      "bearing": {
+        "unitCode": "wmoUnit:degree_(angle)",
+        "value": 203
+      }
+    },
+    "elevation": {
+      "unitCode": "wmoUnit:m",
+      "value": 448.9704
+    }
+  },
+  "updated": null,
+  "forecastGenerator": "BaselineForecastGenerator",
+  "forecast": [
+    {
+      "number": 1,
+      "name": "Tonight",
+      "startTime": "2024-07-17T23:00:00-07:00",
+      "endTime": "2024-07-18T06:00:00-07:00",
+      "isDaytime": false,
+      "temperature": 63,
+      "temperatureUnit": "F",
+      "temperatureTrend": "",
+      "probabilityOfPrecipitation": {
+        "unitCode": "wmoUnit:percent",
+        "value": 20
+      },
+      "windSpeed": "0 to 6 mph",
+      "windDirection": "SSE",
+      "icon": "https://api.weather.gov/icons/land/night/tsra_hi,20?size=medium",
+      "shortForecast": "Isolated Showers And Thunderstorms",
+      "detailedForecast": "Isolated showers and thunderstorms before 2am. Mostly clear, with a low around 63. South southeast wind 0 to 6 mph. Chance of precipitation is 20%."
+    },
+    {
+      "number": 2,
+      "name": "Thursday",
+      "startTime": "2024-07-18T06:00:00-07:00",
+      "endTime": "2024-07-18T18:00:00-07:00",
+      "isDaytime": true,
+      "temperature": 80,
+      "temperatureUnit": "F",
+      "temperatureTrend": "",
+      "probabilityOfPrecipitation": {
+        "unitCode": "wmoUnit:percent",
+        "value": null
+      },
+      "windSpeed": "1 to 8 mph",
+      "windDirection": "W",
+      "icon": "https://api.weather.gov/icons/land/day/few?size=medium",
+      "shortForecast": "Sunny",
+      "detailedForecast": "Sunny, with a high near 80. West wind 1 to 8 mph."
+    }
+  ]
+}
