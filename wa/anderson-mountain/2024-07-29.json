@@ -1,0 +1,77 @@
+{
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      -122.257,
+      48.6406
+    ]
+  },
+  "relativeLocation": {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -122.329311,
+        48.610394
+      ]
+    },
+    "properties": {
+      "city": "Alger",
+      "state": "WA",
+      "distance": {
+        "unitCode": "wmoUnit:m",
+        "value": 6287.0546938371
+      },
+      "bearing": {
+        "unitCode": "wmoUnit:degree_(angle)",
+        "value": 57
+      }
+    },
+    "elevation": {
+      "unitCode": "wmoUnit:m",
+      "value": 919.8864
+    }
+  },
+  "updated": null,
+  "forecastGenerator": "BaselineForecastGenerator",
+  "forecast": [
+    {
+      "number": 1,
+      "name": "Tonight",
+      "startTime": "2024-07-28T23:00:00-07:00",
+      "endTime": "2024-07-29T06:00:00-07:00",
+      "isDaytime": false,
+      "temperature": 52,
+      "temperatureUnit": "F",
+      "temperatureTrend": "",
+      "probabilityOfPrecipitation": {
+        "unitCode": "wmoUnit:percent",
+        "value": 70
+      },
+      "windSpeed": "5 mph",
+      "windDirection": "S",
+      "icon": "https://api.weather.gov/icons/land/night/bkn/rain,70?size=medium",
+      "shortForecast": "Mostly Cloudy then Rain Likely",
+      "detailedForecast": "Rain likely after 2am. Mostly cloudy. Low around 52, with temperatures rising to around 54 overnight. South wind around 5 mph. Chance of precipitation is 70%. New rainfall amounts between a quarter and half of an inch possible."
+    },
+    {
+      "number": 2,
+      "name": "Monday",
+      "startTime": "2024-07-29T06:00:00-07:00",
+      "endTime": "2024-07-29T18:00:00-07:00",
+      "isDaytime": true,
+      "temperature": 58,
+      "temperatureUnit": "F",
+      "temperatureTrend": "",
+      "probabilityOfPrecipitation": {
+        "unitCode": "wmoUnit:percent",
+        "value": 90
+      },
+      "windSpeed": "3 to 7 mph",
+      "windDirection": "S",
+      "icon": "https://api.weather.gov/icons/land/day/rain,90/rain,80?size=medium",
+      "shortForecast": "Rain",
+      "detailedForecast": "Rain. Cloudy. High near 58, with temperatures falling to around 56 in the afternoon. South wind 3 to 7 mph. Chance of precipitation is 90%. New rainfall amounts between a half and three quarters of an inch possible."
+    }
+  ]
+}
