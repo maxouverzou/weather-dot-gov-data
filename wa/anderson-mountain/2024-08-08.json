@@ -1,0 +1,77 @@
+{
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      -122.257,
+      48.6406
+    ]
+  },
+  "relativeLocation": {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -122.329311,
+        48.610394
+      ]
+    },
+    "properties": {
+      "city": "Alger",
+      "state": "WA",
+      "distance": {
+        "unitCode": "wmoUnit:m",
+        "value": 6287.0546938371
+      },
+      "bearing": {
+        "unitCode": "wmoUnit:degree_(angle)",
+        "value": 57
+      }
+    },
+    "elevation": {
+      "unitCode": "wmoUnit:m",
+      "value": 919.8864
+    }
+  },
+  "updated": null,
+  "forecastGenerator": "BaselineForecastGenerator",
+  "forecast": [
+    {
+      "number": 1,
+      "name": "Tonight",
+      "startTime": "2024-08-07T23:00:00-07:00",
+      "endTime": "2024-08-08T06:00:00-07:00",
+      "isDaytime": false,
+      "temperature": 59,
+      "temperatureUnit": "F",
+      "temperatureTrend": "",
+      "probabilityOfPrecipitation": {
+        "unitCode": "wmoUnit:percent",
+        "value": null
+      },
+      "windSpeed": "6 mph",
+      "windDirection": "E",
+      "icon": "https://api.weather.gov/icons/land/night/sct/haze?size=medium",
+      "shortForecast": "Partly Cloudy then Haze",
+      "detailedForecast": "Haze after 4am. Partly cloudy, with a low around 59. East wind around 6 mph."
+    },
+    {
+      "number": 2,
+      "name": "Thursday",
+      "startTime": "2024-08-08T06:00:00-07:00",
+      "endTime": "2024-08-08T18:00:00-07:00",
+      "isDaytime": true,
+      "temperature": 79,
+      "temperatureUnit": "F",
+      "temperatureTrend": "",
+      "probabilityOfPrecipitation": {
+        "unitCode": "wmoUnit:percent",
+        "value": null
+      },
+      "windSpeed": "6 mph",
+      "windDirection": "NE",
+      "icon": "https://api.weather.gov/icons/land/day/haze?size=medium",
+      "shortForecast": "Haze",
+      "detailedForecast": "Haze. Mostly sunny, with a high near 79. Northeast wind around 6 mph."
+    }
+  ]
+}
