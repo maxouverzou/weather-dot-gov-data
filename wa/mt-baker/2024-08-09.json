@@ -1,0 +1,77 @@
+{
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      -121.4842,
+      48.4636
+    ]
+  },
+  "relativeLocation": {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -121.437344,
+        48.536031
+      ]
+    },
+    "properties": {
+      "city": "Marblemount",
+      "state": "WA",
+      "distance": {
+        "unitCode": "wmoUnit:m",
+        "value": 8762.7210443436
+      },
+      "bearing": {
+        "unitCode": "wmoUnit:degree_(angle)",
+        "value": 203
+      }
+    },
+    "elevation": {
+      "unitCode": "wmoUnit:m",
+      "value": 448.9704
+    }
+  },
+  "updated": null,
+  "forecastGenerator": "BaselineForecastGenerator",
+  "forecast": [
+    {
+      "number": 1,
+      "name": "Tonight",
+      "startTime": "2024-08-08T23:00:00-07:00",
+      "endTime": "2024-08-09T06:00:00-07:00",
+      "isDaytime": false,
+      "temperature": 67,
+      "temperatureUnit": "F",
+      "temperatureTrend": "",
+      "probabilityOfPrecipitation": {
+        "unitCode": "wmoUnit:percent",
+        "value": null
+      },
+      "windSpeed": "2 mph",
+      "windDirection": "SSE",
+      "icon": "https://api.weather.gov/icons/land/night/haze/smoke?size=medium",
+      "shortForecast": "Haze",
+      "detailedForecast": "Haze before midnight, then haze and areas of smoke. Partly cloudy, with a low around 67. South southeast wind around 2 mph."
+    },
+    {
+      "number": 2,
+      "name": "Friday",
+      "startTime": "2024-08-09T06:00:00-07:00",
+      "endTime": "2024-08-09T18:00:00-07:00",
+      "isDaytime": true,
+      "temperature": 84,
+      "temperatureUnit": "F",
+      "temperatureTrend": "",
+      "probabilityOfPrecipitation": {
+        "unitCode": "wmoUnit:percent",
+        "value": 20
+      },
+      "windSpeed": "1 to 8 mph",
+      "windDirection": "NNE",
+      "icon": "https://api.weather.gov/icons/land/day/tsra_hi,20?size=medium",
+      "shortForecast": "Haze",
+      "detailedForecast": "Haze before 11am, then haze and a slight chance of showers and thunderstorms. Mostly sunny, with a high near 84. North northeast wind 1 to 8 mph. Chance of precipitation is 20%."
+    }
+  ]
+}
