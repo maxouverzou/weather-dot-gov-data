@@ -1,0 +1,77 @@
+{
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      -121.4842,
+      48.4636
+    ]
+  },
+  "relativeLocation": {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -121.437344,
+        48.536031
+      ]
+    },
+    "properties": {
+      "city": "Marblemount",
+      "state": "WA",
+      "distance": {
+        "unitCode": "wmoUnit:m",
+        "value": 8762.7210443436
+      },
+      "bearing": {
+        "unitCode": "wmoUnit:degree_(angle)",
+        "value": 203
+      }
+    },
+    "elevation": {
+      "unitCode": "wmoUnit:m",
+      "value": 448.9704
+    }
+  },
+  "updated": null,
+  "forecastGenerator": "BaselineForecastGenerator",
+  "forecast": [
+    {
+      "number": 1,
+      "name": "Tonight",
+      "startTime": "2024-09-06T23:00:00-07:00",
+      "endTime": "2024-09-07T06:00:00-07:00",
+      "isDaytime": false,
+      "temperature": 66,
+      "temperatureUnit": "F",
+      "temperatureTrend": "",
+      "probabilityOfPrecipitation": {
+        "unitCode": "wmoUnit:percent",
+        "value": null
+      },
+      "windSpeed": "5 to 8 mph",
+      "windDirection": "E",
+      "icon": "https://api.weather.gov/icons/land/night/haze?size=medium",
+      "shortForecast": "Haze",
+      "detailedForecast": "Haze. Clear, with a low around 66. East wind 5 to 8 mph."
+    },
+    {
+      "number": 2,
+      "name": "Saturday",
+      "startTime": "2024-09-07T06:00:00-07:00",
+      "endTime": "2024-09-07T18:00:00-07:00",
+      "isDaytime": true,
+      "temperature": 86,
+      "temperatureUnit": "F",
+      "temperatureTrend": "",
+      "probabilityOfPrecipitation": {
+        "unitCode": "wmoUnit:percent",
+        "value": null
+      },
+      "windSpeed": "2 to 6 mph",
+      "windDirection": "NNW",
+      "icon": "https://api.weather.gov/icons/land/day/haze?size=medium",
+      "shortForecast": "Haze",
+      "detailedForecast": "Haze. Sunny. High near 86, with temperatures falling to around 84 in the afternoon. North northwest wind 2 to 6 mph."
+    }
+  ]
+}
