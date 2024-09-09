@@ -1,0 +1,77 @@
+{
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      -121.4842,
+      48.4636
+    ]
+  },
+  "relativeLocation": {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -121.437344,
+        48.536031
+      ]
+    },
+    "properties": {
+      "city": "Marblemount",
+      "state": "WA",
+      "distance": {
+        "unitCode": "wmoUnit:m",
+        "value": 8762.7210443436
+      },
+      "bearing": {
+        "unitCode": "wmoUnit:degree_(angle)",
+        "value": 203
+      }
+    },
+    "elevation": {
+      "unitCode": "wmoUnit:m",
+      "value": 448.9704
+    }
+  },
+  "updated": null,
+  "forecastGenerator": "BaselineForecastGenerator",
+  "forecast": [
+    {
+      "number": 1,
+      "name": "Tonight",
+      "startTime": "2024-09-08T23:00:00-07:00",
+      "endTime": "2024-09-09T06:00:00-07:00",
+      "isDaytime": false,
+      "temperature": 59,
+      "temperatureUnit": "F",
+      "temperatureTrend": "",
+      "probabilityOfPrecipitation": {
+        "unitCode": "wmoUnit:percent",
+        "value": null
+      },
+      "windSpeed": "3 mph",
+      "windDirection": "WSW",
+      "icon": "https://api.weather.gov/icons/land/night/haze?size=medium",
+      "shortForecast": "Haze",
+      "detailedForecast": "Haze before 5am. Mostly cloudy. Low around 59, with temperatures rising to around 61 overnight. West southwest wind around 3 mph."
+    },
+    {
+      "number": 2,
+      "name": "Monday",
+      "startTime": "2024-09-09T06:00:00-07:00",
+      "endTime": "2024-09-09T18:00:00-07:00",
+      "isDaytime": true,
+      "temperature": 67,
+      "temperatureUnit": "F",
+      "temperatureTrend": "",
+      "probabilityOfPrecipitation": {
+        "unitCode": "wmoUnit:percent",
+        "value": null
+      },
+      "windSpeed": "6 mph",
+      "windDirection": "WSW",
+      "icon": "https://api.weather.gov/icons/land/day/bkn?size=medium",
+      "shortForecast": "Mostly Cloudy",
+      "detailedForecast": "Mostly cloudy, with a high near 67. West southwest wind around 6 mph."
+    }
+  ]
+}
