@@ -1,0 +1,77 @@
+{
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      -122.257,
+      48.6406
+    ]
+  },
+  "relativeLocation": {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -122.329311,
+        48.610394
+      ]
+    },
+    "properties": {
+      "city": "Alger",
+      "state": "WA",
+      "distance": {
+        "unitCode": "wmoUnit:m",
+        "value": 6287.0546938371
+      },
+      "bearing": {
+        "unitCode": "wmoUnit:degree_(angle)",
+        "value": 57
+      }
+    },
+    "elevation": {
+      "unitCode": "wmoUnit:m",
+      "value": 919.8864
+    }
+  },
+  "updated": null,
+  "forecastGenerator": "BaselineForecastGenerator",
+  "forecast": [
+    {
+      "number": 1,
+      "name": "Tonight",
+      "startTime": "2024-09-09T23:00:00-07:00",
+      "endTime": "2024-09-10T06:00:00-07:00",
+      "isDaytime": false,
+      "temperature": 50,
+      "temperatureUnit": "F",
+      "temperatureTrend": "",
+      "probabilityOfPrecipitation": {
+        "unitCode": "wmoUnit:percent",
+        "value": null
+      },
+      "windSpeed": "5 mph",
+      "windDirection": "ESE",
+      "icon": "https://api.weather.gov/icons/land/night/bkn?size=medium",
+      "shortForecast": "Mostly Cloudy",
+      "detailedForecast": "Mostly cloudy, with a low around 50. East southeast wind around 5 mph."
+    },
+    {
+      "number": 2,
+      "name": "Tuesday",
+      "startTime": "2024-09-10T06:00:00-07:00",
+      "endTime": "2024-09-10T18:00:00-07:00",
+      "isDaytime": true,
+      "temperature": 60,
+      "temperatureUnit": "F",
+      "temperatureTrend": "",
+      "probabilityOfPrecipitation": {
+        "unitCode": "wmoUnit:percent",
+        "value": 30
+      },
+      "windSpeed": "2 to 6 mph",
+      "windDirection": "SSW",
+      "icon": "https://api.weather.gov/icons/land/day/bkn/rain_showers,30?size=medium",
+      "shortForecast": "Partly Sunny then Chance Rain Showers",
+      "detailedForecast": "A chance of rain showers after 5pm. Partly sunny. High near 60, with temperatures falling to around 58 in the afternoon. South southwest wind 2 to 6 mph. Chance of precipitation is 30%. New rainfall amounts less than a tenth of an inch possible."
+    }
+  ]
+}
