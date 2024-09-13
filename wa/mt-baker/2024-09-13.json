@@ -1,0 +1,77 @@
+{
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      -121.4842,
+      48.4636
+    ]
+  },
+  "relativeLocation": {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -121.437344,
+        48.536031
+      ]
+    },
+    "properties": {
+      "city": "Marblemount",
+      "state": "WA",
+      "distance": {
+        "unitCode": "wmoUnit:m",
+        "value": 8762.7210443436
+      },
+      "bearing": {
+        "unitCode": "wmoUnit:degree_(angle)",
+        "value": 203
+      }
+    },
+    "elevation": {
+      "unitCode": "wmoUnit:m",
+      "value": 448.9704
+    }
+  },
+  "updated": null,
+  "forecastGenerator": "BaselineForecastGenerator",
+  "forecast": [
+    {
+      "number": 1,
+      "name": "Tonight",
+      "startTime": "2024-09-12T23:00:00-07:00",
+      "endTime": "2024-09-13T06:00:00-07:00",
+      "isDaytime": false,
+      "temperature": 51,
+      "temperatureUnit": "F",
+      "temperatureTrend": "",
+      "probabilityOfPrecipitation": {
+        "unitCode": "wmoUnit:percent",
+        "value": null
+      },
+      "windSpeed": "3 mph",
+      "windDirection": "WNW",
+      "icon": "https://api.weather.gov/icons/land/night/bkn?size=medium",
+      "shortForecast": "Mostly Cloudy",
+      "detailedForecast": "Mostly cloudy. Low around 51, with temperatures rising to around 53 overnight. West northwest wind around 3 mph."
+    },
+    {
+      "number": 2,
+      "name": "Friday",
+      "startTime": "2024-09-13T06:00:00-07:00",
+      "endTime": "2024-09-13T18:00:00-07:00",
+      "isDaytime": true,
+      "temperature": 61,
+      "temperatureUnit": "F",
+      "temperatureTrend": "",
+      "probabilityOfPrecipitation": {
+        "unitCode": "wmoUnit:percent",
+        "value": 70
+      },
+      "windSpeed": "1 to 5 mph",
+      "windDirection": "W",
+      "icon": "https://api.weather.gov/icons/land/day/bkn/rain_showers,70?size=medium",
+      "shortForecast": "Mostly Cloudy then Rain Showers Likely",
+      "detailedForecast": "Rain showers likely after 4pm. Mostly cloudy, with a high near 61. West wind 1 to 5 mph. Chance of precipitation is 70%. New rainfall amounts less than a tenth of an inch possible."
+    }
+  ]
+}
