@@ -1,0 +1,77 @@
+{
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      -121.4842,
+      48.4636
+    ]
+  },
+  "relativeLocation": {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -121.437344,
+        48.536031
+      ]
+    },
+    "properties": {
+      "city": "Marblemount",
+      "state": "WA",
+      "distance": {
+        "unitCode": "wmoUnit:m",
+        "value": 8762.7210443436
+      },
+      "bearing": {
+        "unitCode": "wmoUnit:degree_(angle)",
+        "value": 203
+      }
+    },
+    "elevation": {
+      "unitCode": "wmoUnit:m",
+      "value": 448.9704
+    }
+  },
+  "updated": null,
+  "forecastGenerator": "BaselineForecastGenerator",
+  "forecast": [
+    {
+      "number": 1,
+      "name": "Tonight",
+      "startTime": "2024-09-24T23:00:00-07:00",
+      "endTime": "2024-09-25T06:00:00-07:00",
+      "isDaytime": false,
+      "temperature": 58,
+      "temperatureUnit": "F",
+      "temperatureTrend": "",
+      "probabilityOfPrecipitation": {
+        "unitCode": "wmoUnit:percent",
+        "value": 70
+      },
+      "windSpeed": "0 to 7 mph",
+      "windDirection": "WNW",
+      "icon": "https://api.weather.gov/icons/land/night/bkn/tsra_sct,70?size=medium",
+      "shortForecast": "Mostly Cloudy then Showers And Thunderstorms Likely",
+      "detailedForecast": "Rain likely between 1am and 5am, then showers and thunderstorms likely. Mostly cloudy. Low around 58, with temperatures rising to around 62 overnight. West northwest wind 0 to 7 mph. Chance of precipitation is 70%. New rainfall amounts between a tenth and quarter of an inch possible."
+    },
+    {
+      "number": 2,
+      "name": "Wednesday",
+      "startTime": "2024-09-25T06:00:00-07:00",
+      "endTime": "2024-09-25T18:00:00-07:00",
+      "isDaytime": true,
+      "temperature": 62,
+      "temperatureUnit": "F",
+      "temperatureTrend": "",
+      "probabilityOfPrecipitation": {
+        "unitCode": "wmoUnit:percent",
+        "value": 100
+      },
+      "windSpeed": "1 to 9 mph",
+      "windDirection": "W",
+      "icon": "https://api.weather.gov/icons/land/day/tsra,80/tsra,100?size=medium",
+      "shortForecast": "Showers And Thunderstorms",
+      "detailedForecast": "Showers and thunderstorms. Mostly cloudy. High near 62, with temperatures falling to around 55 in the afternoon. West wind 1 to 9 mph. Chance of precipitation is 100%. New rainfall amounts between three quarters and one inch possible."
+    }
+  ]
+}
