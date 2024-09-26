@@ -1,0 +1,77 @@
+{
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      -121.4842,
+      48.4636
+    ]
+  },
+  "relativeLocation": {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -121.437344,
+        48.536031
+      ]
+    },
+    "properties": {
+      "city": "Marblemount",
+      "state": "WA",
+      "distance": {
+        "unitCode": "wmoUnit:m",
+        "value": 8762.7210443436
+      },
+      "bearing": {
+        "unitCode": "wmoUnit:degree_(angle)",
+        "value": 203
+      }
+    },
+    "elevation": {
+      "unitCode": "wmoUnit:m",
+      "value": 448.9704
+    }
+  },
+  "updated": null,
+  "forecastGenerator": "BaselineForecastGenerator",
+  "forecast": [
+    {
+      "number": 1,
+      "name": "Tonight",
+      "startTime": "2024-09-25T23:00:00-07:00",
+      "endTime": "2024-09-26T06:00:00-07:00",
+      "isDaytime": false,
+      "temperature": 45,
+      "temperatureUnit": "F",
+      "temperatureTrend": "",
+      "probabilityOfPrecipitation": {
+        "unitCode": "wmoUnit:percent",
+        "value": 20
+      },
+      "windSpeed": "1 to 7 mph",
+      "windDirection": "WSW",
+      "icon": "https://api.weather.gov/icons/land/night/rain_showers,20/sct?size=medium",
+      "shortForecast": "Slight Chance Rain Showers then Partly Cloudy",
+      "detailedForecast": "A slight chance of rain showers before midnight. Partly cloudy. Low around 45, with temperatures rising to around 47 overnight. West southwest wind 1 to 7 mph. Chance of precipitation is 20%."
+    },
+    {
+      "number": 2,
+      "name": "Thursday",
+      "startTime": "2024-09-26T06:00:00-07:00",
+      "endTime": "2024-09-26T18:00:00-07:00",
+      "isDaytime": true,
+      "temperature": 59,
+      "temperatureUnit": "F",
+      "temperatureTrend": "",
+      "probabilityOfPrecipitation": {
+        "unitCode": "wmoUnit:percent",
+        "value": 80
+      },
+      "windSpeed": "3 mph",
+      "windDirection": "WNW",
+      "icon": "https://api.weather.gov/icons/land/day/sct/rain,80?size=medium",
+      "shortForecast": "Mostly Sunny then Light Rain",
+      "detailedForecast": "Rain after 3pm. Mostly sunny, with a high near 59. West northwest wind around 3 mph. Chance of precipitation is 80%. New rainfall amounts between a tenth and quarter of an inch possible."
+    }
+  ]
+}
