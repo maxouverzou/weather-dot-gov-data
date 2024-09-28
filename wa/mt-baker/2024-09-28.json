@@ -1,0 +1,77 @@
+{
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      -121.4842,
+      48.4636
+    ]
+  },
+  "relativeLocation": {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -121.437344,
+        48.536031
+      ]
+    },
+    "properties": {
+      "city": "Marblemount",
+      "state": "WA",
+      "distance": {
+        "unitCode": "wmoUnit:m",
+        "value": 8762.7210443436
+      },
+      "bearing": {
+        "unitCode": "wmoUnit:degree_(angle)",
+        "value": 203
+      }
+    },
+    "elevation": {
+      "unitCode": "wmoUnit:m",
+      "value": 448.9704
+    }
+  },
+  "updated": null,
+  "forecastGenerator": "BaselineForecastGenerator",
+  "forecast": [
+    {
+      "number": 1,
+      "name": "Tonight",
+      "startTime": "2024-09-27T23:00:00-07:00",
+      "endTime": "2024-09-28T06:00:00-07:00",
+      "isDaytime": false,
+      "temperature": 47,
+      "temperatureUnit": "F",
+      "temperatureTrend": "",
+      "probabilityOfPrecipitation": {
+        "unitCode": "wmoUnit:percent",
+        "value": null
+      },
+      "windSpeed": "7 mph",
+      "windDirection": "S",
+      "icon": "https://api.weather.gov/icons/land/night/bkn?size=medium",
+      "shortForecast": "Mostly Cloudy",
+      "detailedForecast": "Mostly cloudy, with a low around 47. South wind around 7 mph."
+    },
+    {
+      "number": 2,
+      "name": "Saturday",
+      "startTime": "2024-09-28T06:00:00-07:00",
+      "endTime": "2024-09-28T18:00:00-07:00",
+      "isDaytime": true,
+      "temperature": 63,
+      "temperatureUnit": "F",
+      "temperatureTrend": "",
+      "probabilityOfPrecipitation": {
+        "unitCode": "wmoUnit:percent",
+        "value": null
+      },
+      "windSpeed": "6 mph",
+      "windDirection": "SW",
+      "icon": "https://api.weather.gov/icons/land/day/bkn?size=medium",
+      "shortForecast": "Mostly Cloudy",
+      "detailedForecast": "Mostly cloudy. High near 63, with temperatures falling to around 59 in the afternoon. Southwest wind around 6 mph."
+    }
+  ]
+}

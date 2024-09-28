@@ -1,0 +1,77 @@
+{
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      -122.257,
+      48.6406
+    ]
+  },
+  "relativeLocation": {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -122.329311,
+        48.610394
+      ]
+    },
+    "properties": {
+      "city": "Alger",
+      "state": "WA",
+      "distance": {
+        "unitCode": "wmoUnit:m",
+        "value": 6287.0546938371
+      },
+      "bearing": {
+        "unitCode": "wmoUnit:degree_(angle)",
+        "value": 57
+      }
+    },
+    "elevation": {
+      "unitCode": "wmoUnit:m",
+      "value": 919.8864
+    }
+  },
+  "updated": null,
+  "forecastGenerator": "BaselineForecastGenerator",
+  "forecast": [
+    {
+      "number": 1,
+      "name": "Tonight",
+      "startTime": "2024-09-27T23:00:00-07:00",
+      "endTime": "2024-09-28T06:00:00-07:00",
+      "isDaytime": false,
+      "temperature": 43,
+      "temperatureUnit": "F",
+      "temperatureTrend": "",
+      "probabilityOfPrecipitation": {
+        "unitCode": "wmoUnit:percent",
+        "value": null
+      },
+      "windSpeed": "9 mph",
+      "windDirection": "NE",
+      "icon": "https://api.weather.gov/icons/land/night/bkn?size=medium",
+      "shortForecast": "Mostly Cloudy",
+      "detailedForecast": "Mostly cloudy, with a low around 43. Northeast wind around 9 mph."
+    },
+    {
+      "number": 2,
+      "name": "Saturday",
+      "startTime": "2024-09-28T06:00:00-07:00",
+      "endTime": "2024-09-28T18:00:00-07:00",
+      "isDaytime": true,
+      "temperature": 54,
+      "temperatureUnit": "F",
+      "temperatureTrend": "",
+      "probabilityOfPrecipitation": {
+        "unitCode": "wmoUnit:percent",
+        "value": null
+      },
+      "windSpeed": "3 to 8 mph",
+      "windDirection": "NNW",
+      "icon": "https://api.weather.gov/icons/land/day/bkn?size=medium",
+      "shortForecast": "Mostly Cloudy",
+      "detailedForecast": "Mostly cloudy. High near 54, with temperatures falling to around 51 in the afternoon. North northwest wind 3 to 8 mph."
+    }
+  ]
+}
