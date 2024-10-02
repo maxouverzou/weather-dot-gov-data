@@ -1,0 +1,77 @@
+{
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      -121.4842,
+      48.4636
+    ]
+  },
+  "relativeLocation": {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -121.437344,
+        48.536031
+      ]
+    },
+    "properties": {
+      "city": "Marblemount",
+      "state": "WA",
+      "distance": {
+        "unitCode": "wmoUnit:m",
+        "value": 8762.7210443436
+      },
+      "bearing": {
+        "unitCode": "wmoUnit:degree_(angle)",
+        "value": 203
+      }
+    },
+    "elevation": {
+      "unitCode": "wmoUnit:m",
+      "value": 448.9704
+    }
+  },
+  "updated": null,
+  "forecastGenerator": "BaselineForecastGenerator",
+  "forecast": [
+    {
+      "number": 1,
+      "name": "Tonight",
+      "startTime": "2024-10-01T23:00:00-07:00",
+      "endTime": "2024-10-02T06:00:00-07:00",
+      "isDaytime": false,
+      "temperature": 44,
+      "temperatureUnit": "F",
+      "temperatureTrend": "",
+      "probabilityOfPrecipitation": {
+        "unitCode": "wmoUnit:percent",
+        "value": null
+      },
+      "windSpeed": "7 mph",
+      "windDirection": "SSW",
+      "icon": "https://api.weather.gov/icons/land/night/bkn?size=medium",
+      "shortForecast": "Mostly Cloudy",
+      "detailedForecast": "Mostly cloudy, with a low around 44. South southwest wind around 7 mph."
+    },
+    {
+      "number": 2,
+      "name": "Wednesday",
+      "startTime": "2024-10-02T06:00:00-07:00",
+      "endTime": "2024-10-02T18:00:00-07:00",
+      "isDaytime": true,
+      "temperature": 51,
+      "temperatureUnit": "F",
+      "temperatureTrend": "",
+      "probabilityOfPrecipitation": {
+        "unitCode": "wmoUnit:percent",
+        "value": 40
+      },
+      "windSpeed": "2 to 7 mph",
+      "windDirection": "WSW",
+      "icon": "https://api.weather.gov/icons/land/day/rain,40/rain,30?size=medium",
+      "shortForecast": "Chance Light Rain",
+      "detailedForecast": "A chance of rain before 3pm. Partly sunny, with a high near 51. West southwest wind 2 to 7 mph. Chance of precipitation is 40%. New rainfall amounts less than a tenth of an inch possible."
+    }
+  ]
+}
