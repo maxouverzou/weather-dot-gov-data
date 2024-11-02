@@ -1,0 +1,77 @@
+{
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      -121.4842,
+      48.4636
+    ]
+  },
+  "relativeLocation": {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -121.437344,
+        48.536031
+      ]
+    },
+    "properties": {
+      "city": "Marblemount",
+      "state": "WA",
+      "distance": {
+        "unitCode": "wmoUnit:m",
+        "value": 8762.7210443436
+      },
+      "bearing": {
+        "unitCode": "wmoUnit:degree_(angle)",
+        "value": 203
+      }
+    },
+    "elevation": {
+      "unitCode": "wmoUnit:m",
+      "value": 448.9704
+    }
+  },
+  "updated": null,
+  "forecastGenerator": "BaselineForecastGenerator",
+  "forecast": [
+    {
+      "number": 1,
+      "name": "Tonight",
+      "startTime": "2024-11-01T23:00:00-07:00",
+      "endTime": "2024-11-02T06:00:00-07:00",
+      "isDaytime": false,
+      "temperature": 40,
+      "temperatureUnit": "F",
+      "temperatureTrend": "",
+      "probabilityOfPrecipitation": {
+        "unitCode": "wmoUnit:percent",
+        "value": 90
+      },
+      "windSpeed": "3 mph",
+      "windDirection": "SW",
+      "icon": "https://api.weather.gov/icons/land/night/rain,80/rain,90?size=medium",
+      "shortForecast": "Rain",
+      "detailedForecast": "Rain. Mostly cloudy. Low around 40, with temperatures rising to around 42 overnight. Southwest wind around 3 mph. Chance of precipitation is 90%. New rainfall amounts between a quarter and half of an inch possible."
+    },
+    {
+      "number": 2,
+      "name": "Saturday",
+      "startTime": "2024-11-02T06:00:00-07:00",
+      "endTime": "2024-11-02T18:00:00-07:00",
+      "isDaytime": true,
+      "temperature": 44,
+      "temperatureUnit": "F",
+      "temperatureTrend": "",
+      "probabilityOfPrecipitation": {
+        "unitCode": "wmoUnit:percent",
+        "value": 90
+      },
+      "windSpeed": "5 mph",
+      "windDirection": "SW",
+      "icon": "https://api.weather.gov/icons/land/day/rain,80/rain,90?size=medium",
+      "shortForecast": "Light Rain",
+      "detailedForecast": "Rain. Mostly cloudy, with a high near 44. Southwest wind around 5 mph. Chance of precipitation is 90%. New rainfall amounts between a quarter and half of an inch possible."
+    }
+  ]
+}
