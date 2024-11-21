@@ -1,0 +1,77 @@
+{
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      -121.4842,
+      48.4636
+    ]
+  },
+  "relativeLocation": {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -121.437344,
+        48.536031
+      ]
+    },
+    "properties": {
+      "city": "Marblemount",
+      "state": "WA",
+      "distance": {
+        "unitCode": "wmoUnit:m",
+        "value": 8762.7210443436
+      },
+      "bearing": {
+        "unitCode": "wmoUnit:degree_(angle)",
+        "value": 203
+      }
+    },
+    "elevation": {
+      "unitCode": "wmoUnit:m",
+      "value": 448.9704
+    }
+  },
+  "updated": null,
+  "forecastGenerator": "BaselineForecastGenerator",
+  "forecast": [
+    {
+      "number": 1,
+      "name": "Tonight",
+      "startTime": "2024-11-20T22:00:00-08:00",
+      "endTime": "2024-11-21T06:00:00-08:00",
+      "isDaytime": false,
+      "temperature": 36,
+      "temperatureUnit": "F",
+      "temperatureTrend": "",
+      "probabilityOfPrecipitation": {
+        "unitCode": "wmoUnit:percent",
+        "value": 50
+      },
+      "windSpeed": "7 mph",
+      "windDirection": "E",
+      "icon": "https://api.weather.gov/icons/land/night/snow,50/snow,40?size=medium",
+      "shortForecast": "Chance Rain And Snow Showers",
+      "detailedForecast": "A chance of rain and snow showers before 11pm, then a chance of rain and snow showers between 11pm and 1am, then a chance of rain and snow showers between 1am and 4am. Mostly cloudy, with a low around 36. East wind around 7 mph. Chance of precipitation is 50%. New rainfall amounts less than a tenth of an inch possible."
+    },
+    {
+      "number": 2,
+      "name": "Thursday",
+      "startTime": "2024-11-21T06:00:00-08:00",
+      "endTime": "2024-11-21T18:00:00-08:00",
+      "isDaytime": true,
+      "temperature": 44,
+      "temperatureUnit": "F",
+      "temperatureTrend": "",
+      "probabilityOfPrecipitation": {
+        "unitCode": "wmoUnit:percent",
+        "value": 80
+      },
+      "windSpeed": "5 mph",
+      "windDirection": "ENE",
+      "icon": "https://api.weather.gov/icons/land/day/rain_showers,30/rain_showers,80?size=medium",
+      "shortForecast": "Rain Showers",
+      "detailedForecast": "Rain showers after 10am. Partly sunny. High near 44, with temperatures falling to around 42 in the afternoon. East northeast wind around 5 mph. Chance of precipitation is 80%. New rainfall amounts between a tenth and quarter of an inch possible."
+    }
+  ]
+}
