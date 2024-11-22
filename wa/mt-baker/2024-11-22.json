@@ -1,0 +1,77 @@
+{
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      -121.4842,
+      48.4636
+    ]
+  },
+  "relativeLocation": {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -121.437344,
+        48.536031
+      ]
+    },
+    "properties": {
+      "city": "Marblemount",
+      "state": "WA",
+      "distance": {
+        "unitCode": "wmoUnit:m",
+        "value": 8762.7210443436
+      },
+      "bearing": {
+        "unitCode": "wmoUnit:degree_(angle)",
+        "value": 203
+      }
+    },
+    "elevation": {
+      "unitCode": "wmoUnit:m",
+      "value": 448.9704
+    }
+  },
+  "updated": null,
+  "forecastGenerator": "BaselineForecastGenerator",
+  "forecast": [
+    {
+      "number": 1,
+      "name": "Tonight",
+      "startTime": "2024-11-21T22:00:00-08:00",
+      "endTime": "2024-11-22T06:00:00-08:00",
+      "isDaytime": false,
+      "temperature": 39,
+      "temperatureUnit": "F",
+      "temperatureTrend": "",
+      "probabilityOfPrecipitation": {
+        "unitCode": "wmoUnit:percent",
+        "value": 90
+      },
+      "windSpeed": "12 mph",
+      "windDirection": "ENE",
+      "icon": "https://api.weather.gov/icons/land/night/bkn/rain_showers,90?size=medium",
+      "shortForecast": "Mostly Cloudy then Rain Showers",
+      "detailedForecast": "Rain showers after 1am. Mostly cloudy. Low around 39, with temperatures rising to around 41 overnight. East northeast wind around 12 mph. Chance of precipitation is 90%. New rainfall amounts between a quarter and half of an inch possible."
+    },
+    {
+      "number": 2,
+      "name": "Friday",
+      "startTime": "2024-11-22T06:00:00-08:00",
+      "endTime": "2024-11-22T18:00:00-08:00",
+      "isDaytime": true,
+      "temperature": 47,
+      "temperatureUnit": "F",
+      "temperatureTrend": "",
+      "probabilityOfPrecipitation": {
+        "unitCode": "wmoUnit:percent",
+        "value": 100
+      },
+      "windSpeed": "10 mph",
+      "windDirection": "ESE",
+      "icon": "https://api.weather.gov/icons/land/day/rain_showers,100/rain_showers,90?size=medium",
+      "shortForecast": "Rain Showers",
+      "detailedForecast": "Rain showers. Mostly cloudy. High near 47, with temperatures falling to around 45 in the afternoon. East southeast wind around 10 mph, with gusts as high as 33 mph. Chance of precipitation is 100%. New rainfall amounts between a half and three quarters of an inch possible."
+    }
+  ]
+}
