@@ -1,0 +1,77 @@
+{
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      -122.257,
+      48.6406
+    ]
+  },
+  "relativeLocation": {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -122.329311,
+        48.610394
+      ]
+    },
+    "properties": {
+      "city": "Alger",
+      "state": "WA",
+      "distance": {
+        "unitCode": "wmoUnit:m",
+        "value": 6287.0546938371
+      },
+      "bearing": {
+        "unitCode": "wmoUnit:degree_(angle)",
+        "value": 57
+      }
+    },
+    "elevation": {
+      "unitCode": "wmoUnit:m",
+      "value": 919.8864
+    }
+  },
+  "updated": null,
+  "forecastGenerator": "BaselineForecastGenerator",
+  "forecast": [
+    {
+      "number": 1,
+      "name": "Tonight",
+      "startTime": "2024-11-23T22:00:00-08:00",
+      "endTime": "2024-11-24T06:00:00-08:00",
+      "isDaytime": false,
+      "temperature": 34,
+      "temperatureUnit": "F",
+      "temperatureTrend": "",
+      "probabilityOfPrecipitation": {
+        "unitCode": "wmoUnit:percent",
+        "value": 50
+      },
+      "windSpeed": "7 to 13 mph",
+      "windDirection": "SE",
+      "icon": "https://api.weather.gov/icons/land/night/snow,40/snow,50?size=medium",
+      "shortForecast": "Chance Rain And Snow",
+      "detailedForecast": "A chance of rain and snow. Mostly cloudy, with a low around 34. Southeast wind 7 to 13 mph. Chance of precipitation is 50%. New rainfall amounts less than a tenth of an inch possible."
+    },
+    {
+      "number": 2,
+      "name": "Sunday",
+      "startTime": "2024-11-24T06:00:00-08:00",
+      "endTime": "2024-11-24T18:00:00-08:00",
+      "isDaytime": true,
+      "temperature": 39,
+      "temperatureUnit": "F",
+      "temperatureTrend": "",
+      "probabilityOfPrecipitation": {
+        "unitCode": "wmoUnit:percent",
+        "value": 70
+      },
+      "windSpeed": "6 to 12 mph",
+      "windDirection": "ESE",
+      "icon": "https://api.weather.gov/icons/land/day/snow,60/snow,70?size=medium",
+      "shortForecast": "Light Snow Likely",
+      "detailedForecast": "Snow likely. Cloudy, with a high near 39. East southeast wind 6 to 12 mph. Chance of precipitation is 70%. New rainfall amounts between a tenth and quarter of an inch possible."
+    }
+  ]
+}
