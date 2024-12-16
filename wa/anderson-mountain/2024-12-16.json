@@ -1,0 +1,77 @@
+{
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      -122.25700000000001,
+      48.640599999999999
+    ]
+  },
+  "relativeLocation": {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -122.329311,
+        48.610393999999999
+      ]
+    },
+    "properties": {
+      "city": "Alger",
+      "state": "WA",
+      "distance": {
+        "unitCode": "wmoUnit:m",
+        "value": 6287.0546938370999
+      },
+      "bearing": {
+        "unitCode": "wmoUnit:degree_(angle)",
+        "value": 57
+      }
+    },
+    "elevation": {
+      "unitCode": "wmoUnit:m",
+      "value": 919.88639999999998
+    }
+  },
+  "updated": null,
+  "forecastGenerator": "BaselineForecastGenerator",
+  "forecast": [
+    {
+      "number": 1,
+      "name": "Tonight",
+      "startTime": "2024-12-15T22:00:00-08:00",
+      "endTime": "2024-12-16T06:00:00-08:00",
+      "isDaytime": false,
+      "temperature": 30,
+      "temperatureUnit": "F",
+      "temperatureTrend": "",
+      "probabilityOfPrecipitation": {
+        "unitCode": "wmoUnit:percent",
+        "value": 90
+      },
+      "windSpeed": "5 to 9 mph",
+      "windDirection": "E",
+      "icon": "https://api.weather.gov/icons/land/night/ovc/snow,90?size=medium",
+      "shortForecast": "Cloudy then Light Snow",
+      "detailedForecast": "Snow after 2am. Cloudy. Low around 30, with temperatures rising to around 33 overnight. Wind chill values as low as 19. East wind 5 to 9 mph. Chance of precipitation is 90%. New snow accumulation of 1 to 2 inches possible."
+    },
+    {
+      "number": 2,
+      "name": "Monday",
+      "startTime": "2024-12-16T06:00:00-08:00",
+      "endTime": "2024-12-16T18:00:00-08:00",
+      "isDaytime": true,
+      "temperature": 36,
+      "temperatureUnit": "F",
+      "temperatureTrend": "",
+      "probabilityOfPrecipitation": {
+        "unitCode": "wmoUnit:percent",
+        "value": 100
+      },
+      "windSpeed": "9 to 14 mph",
+      "windDirection": "SE",
+      "icon": "https://api.weather.gov/icons/land/day/snow,100/snow,30?size=medium",
+      "shortForecast": "Light Snow",
+      "detailedForecast": "Snow before 10am, then a chance of rain and snow. Mostly cloudy, with a high near 36. Wind chill values as low as 21. Southeast wind 9 to 14 mph. Chance of precipitation is 100%. New snow accumulation of around one inch possible."
+    }
+  ]
+}
