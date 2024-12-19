@@ -1,0 +1,77 @@
+{
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      -122.25700000000001,
+      48.640599999999999
+    ]
+  },
+  "relativeLocation": {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -122.329311,
+        48.610393999999999
+      ]
+    },
+    "properties": {
+      "city": "Alger",
+      "state": "WA",
+      "distance": {
+        "unitCode": "wmoUnit:m",
+        "value": 6287.0546938370999
+      },
+      "bearing": {
+        "unitCode": "wmoUnit:degree_(angle)",
+        "value": 57
+      }
+    },
+    "elevation": {
+      "unitCode": "wmoUnit:m",
+      "value": 919.88639999999998
+    }
+  },
+  "updated": null,
+  "forecastGenerator": "BaselineForecastGenerator",
+  "forecast": [
+    {
+      "number": 1,
+      "name": "Tonight",
+      "startTime": "2024-12-18T22:00:00-08:00",
+      "endTime": "2024-12-19T06:00:00-08:00",
+      "isDaytime": false,
+      "temperature": 34,
+      "temperatureUnit": "F",
+      "temperatureTrend": "",
+      "probabilityOfPrecipitation": {
+        "unitCode": "wmoUnit:percent",
+        "value": 20
+      },
+      "windSpeed": "13 to 18 mph",
+      "windDirection": "SE",
+      "icon": "https://api.weather.gov/icons/land/night/bkn/snow,20?size=medium",
+      "shortForecast": "Mostly Cloudy then Chance Rain And Snow",
+      "detailedForecast": "A chance of rain and snow after 3am. Mostly cloudy. Low around 34, with temperatures rising to around 39 overnight. Wind chill values as low as 24. Southeast wind 13 to 18 mph, with gusts as high as 25 mph. Chance of precipitation is 20%. New rainfall amounts less than a tenth of an inch possible."
+    },
+    {
+      "number": 2,
+      "name": "Thursday",
+      "startTime": "2024-12-19T06:00:00-08:00",
+      "endTime": "2024-12-19T18:00:00-08:00",
+      "isDaytime": true,
+      "temperature": 45,
+      "temperatureUnit": "F",
+      "temperatureTrend": "",
+      "probabilityOfPrecipitation": {
+        "unitCode": "wmoUnit:percent",
+        "value": 80
+      },
+      "windSpeed": "20 mph",
+      "windDirection": "SE",
+      "icon": "https://api.weather.gov/icons/land/day/rain,80?size=medium",
+      "shortForecast": "Rain",
+      "detailedForecast": "Rain. Cloudy, with a high near 45. Southeast wind around 20 mph, with gusts as high as 26 mph. Chance of precipitation is 80%. New rainfall amounts between a quarter and half of an inch possible."
+    }
+  ]
+}
