@@ -1,0 +1,77 @@
+{
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      -122.25700000000001,
+      48.640599999999999
+    ]
+  },
+  "relativeLocation": {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -122.329311,
+        48.610393999999999
+      ]
+    },
+    "properties": {
+      "city": "Alger",
+      "state": "WA",
+      "distance": {
+        "unitCode": "wmoUnit:m",
+        "value": 6287.0546938370999
+      },
+      "bearing": {
+        "unitCode": "wmoUnit:degree_(angle)",
+        "value": 57
+      }
+    },
+    "elevation": {
+      "unitCode": "wmoUnit:m",
+      "value": 919.88639999999998
+    }
+  },
+  "updated": null,
+  "forecastGenerator": "BaselineForecastGenerator",
+  "forecast": [
+    {
+      "number": 1,
+      "name": "Tonight",
+      "startTime": "2024-12-19T22:00:00-08:00",
+      "endTime": "2024-12-20T06:00:00-08:00",
+      "isDaytime": false,
+      "temperature": 42,
+      "temperatureUnit": "F",
+      "temperatureTrend": "",
+      "probabilityOfPrecipitation": {
+        "unitCode": "wmoUnit:percent",
+        "value": null
+      },
+      "windSpeed": "15 to 21 mph",
+      "windDirection": "SSE",
+      "icon": "https://api.weather.gov/icons/land/night/wind_bkn?size=medium",
+      "shortForecast": "Mostly Cloudy",
+      "detailedForecast": "Mostly cloudy. Low around 42, with temperatures rising to around 44 overnight. South southeast wind 15 to 21 mph, with gusts as high as 28 mph. New rainfall amounts less than a tenth of an inch possible."
+    },
+    {
+      "number": 2,
+      "name": "Friday",
+      "startTime": "2024-12-20T06:00:00-08:00",
+      "endTime": "2024-12-20T18:00:00-08:00",
+      "isDaytime": true,
+      "temperature": 50,
+      "temperatureUnit": "F",
+      "temperatureTrend": "",
+      "probabilityOfPrecipitation": {
+        "unitCode": "wmoUnit:percent",
+        "value": 60
+      },
+      "windSpeed": "18 mph",
+      "windDirection": "SE",
+      "icon": "https://api.weather.gov/icons/land/day/rain,50/rain,60?size=medium",
+      "shortForecast": "Light Rain Likely",
+      "detailedForecast": "Rain likely after 7am. Mostly cloudy, with a high near 50. Southeast wind around 18 mph, with gusts as high as 25 mph. Chance of precipitation is 60%. New rainfall amounts less than a tenth of an inch possible."
+    }
+  ]
+}
