@@ -1,0 +1,77 @@
+{
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      -122.25700000000001,
+      48.640599999999999
+    ]
+  },
+  "relativeLocation": {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -122.329311,
+        48.610393999999999
+      ]
+    },
+    "properties": {
+      "city": "Alger",
+      "state": "WA",
+      "distance": {
+        "unitCode": "wmoUnit:m",
+        "value": 6287.0546938370999
+      },
+      "bearing": {
+        "unitCode": "wmoUnit:degree_(angle)",
+        "value": 57
+      }
+    },
+    "elevation": {
+      "unitCode": "wmoUnit:m",
+      "value": 919.88639999999998
+    }
+  },
+  "updated": null,
+  "forecastGenerator": "BaselineForecastGenerator",
+  "forecast": [
+    {
+      "number": 1,
+      "name": "Tonight",
+      "startTime": "2024-12-22T22:00:00-08:00",
+      "endTime": "2024-12-23T06:00:00-08:00",
+      "isDaytime": false,
+      "temperature": 37,
+      "temperatureUnit": "F",
+      "temperatureTrend": "",
+      "probabilityOfPrecipitation": {
+        "unitCode": "wmoUnit:percent",
+        "value": 100
+      },
+      "windSpeed": "14 to 22 mph",
+      "windDirection": "SSW",
+      "icon": "https://api.weather.gov/icons/land/night/rain,90/rain,100?size=medium",
+      "shortForecast": "Rain",
+      "detailedForecast": "Rain. Cloudy. Low around 37, with temperatures rising to around 39 overnight. South southwest wind 14 to 22 mph, with gusts as high as 33 mph. Chance of precipitation is 100%. New rainfall amounts between a quarter and half of an inch possible."
+    },
+    {
+      "number": 2,
+      "name": "Monday",
+      "startTime": "2024-12-23T06:00:00-08:00",
+      "endTime": "2024-12-23T18:00:00-08:00",
+      "isDaytime": true,
+      "temperature": 44,
+      "temperatureUnit": "F",
+      "temperatureTrend": "",
+      "probabilityOfPrecipitation": {
+        "unitCode": "wmoUnit:percent",
+        "value": 30
+      },
+      "windSpeed": "13 to 18 mph",
+      "windDirection": "SSE",
+      "icon": "https://api.weather.gov/icons/land/day/bkn/rain,30?size=medium",
+      "shortForecast": "Partly Sunny then Chance Light Rain",
+      "detailedForecast": "A chance of rain after 4pm. Partly sunny. High near 44, with temperatures falling to around 42 in the afternoon. South southeast wind 13 to 18 mph. Chance of precipitation is 30%. New rainfall amounts less than a tenth of an inch possible."
+    }
+  ]
+}
