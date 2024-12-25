@@ -1,0 +1,77 @@
+{
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      -121.4842,
+      48.4636
+    ]
+  },
+  "relativeLocation": {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -121.437344,
+        48.536031000000001
+      ]
+    },
+    "properties": {
+      "city": "Marblemount",
+      "state": "WA",
+      "distance": {
+        "unitCode": "wmoUnit:m",
+        "value": 8762.7210443435997
+      },
+      "bearing": {
+        "unitCode": "wmoUnit:degree_(angle)",
+        "value": 203
+      }
+    },
+    "elevation": {
+      "unitCode": "wmoUnit:m",
+      "value": 448.97039999999998
+    }
+  },
+  "updated": null,
+  "forecastGenerator": "BaselineForecastGenerator",
+  "forecast": [
+    {
+      "number": 1,
+      "name": "Tonight",
+      "startTime": "2024-12-24T22:00:00-08:00",
+      "endTime": "2024-12-25T06:00:00-08:00",
+      "isDaytime": false,
+      "temperature": 38,
+      "temperatureUnit": "F",
+      "temperatureTrend": "",
+      "probabilityOfPrecipitation": {
+        "unitCode": "wmoUnit:percent",
+        "value": 40
+      },
+      "windSpeed": "5 mph",
+      "windDirection": "SSW",
+      "icon": "https://api.weather.gov/icons/land/night/rain,40/rain,30?size=medium",
+      "shortForecast": "Chance Light Rain",
+      "detailedForecast": "A chance of rain before 5am. Mostly cloudy, with a low around 38. South southwest wind around 5 mph. Chance of precipitation is 40%. New rainfall amounts less than a tenth of an inch possible."
+    },
+    {
+      "number": 2,
+      "name": "Christmas Day",
+      "startTime": "2024-12-25T06:00:00-08:00",
+      "endTime": "2024-12-25T18:00:00-08:00",
+      "isDaytime": true,
+      "temperature": 41,
+      "temperatureUnit": "F",
+      "temperatureTrend": "",
+      "probabilityOfPrecipitation": {
+        "unitCode": "wmoUnit:percent",
+        "value": 100
+      },
+      "windSpeed": "2 to 7 mph",
+      "windDirection": "SE",
+      "icon": "https://api.weather.gov/icons/land/day/snow,70/snow,100?size=medium",
+      "shortForecast": "Rain And Snow",
+      "detailedForecast": "A chance of rain between 7am and 9am, then rain and snow. Mostly cloudy, with a high near 41. Southeast wind 2 to 7 mph. Chance of precipitation is 100%. New rainfall amounts between a half and three quarters of an inch possible."
+    }
+  ]
+}

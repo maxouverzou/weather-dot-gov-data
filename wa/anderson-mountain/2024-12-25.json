@@ -1,0 +1,77 @@
+{
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      -122.25700000000001,
+      48.640599999999999
+    ]
+  },
+  "relativeLocation": {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -122.329311,
+        48.610393999999999
+      ]
+    },
+    "properties": {
+      "city": "Alger",
+      "state": "WA",
+      "distance": {
+        "unitCode": "wmoUnit:m",
+        "value": 6287.0546938370999
+      },
+      "bearing": {
+        "unitCode": "wmoUnit:degree_(angle)",
+        "value": 57
+      }
+    },
+    "elevation": {
+      "unitCode": "wmoUnit:m",
+      "value": 919.88639999999998
+    }
+  },
+  "updated": null,
+  "forecastGenerator": "BaselineForecastGenerator",
+  "forecast": [
+    {
+      "number": 1,
+      "name": "Tonight",
+      "startTime": "2024-12-24T22:00:00-08:00",
+      "endTime": "2024-12-25T06:00:00-08:00",
+      "isDaytime": false,
+      "temperature": 34,
+      "temperatureUnit": "F",
+      "temperatureTrend": "",
+      "probabilityOfPrecipitation": {
+        "unitCode": "wmoUnit:percent",
+        "value": 30
+      },
+      "windSpeed": "18 to 24 mph",
+      "windDirection": "S",
+      "icon": "https://api.weather.gov/icons/land/night/snow,30/snow,20?size=medium",
+      "shortForecast": "Chance Light Snow",
+      "detailedForecast": "A chance of snow before 4am. Mostly cloudy. Low around 34, with temperatures rising to around 36 overnight. Wind chill values as low as 23. South wind 18 to 24 mph, with gusts as high as 35 mph. Chance of precipitation is 30%. New snow accumulation of less than half an inch possible."
+    },
+    {
+      "number": 2,
+      "name": "Christmas Day",
+      "startTime": "2024-12-25T06:00:00-08:00",
+      "endTime": "2024-12-25T18:00:00-08:00",
+      "isDaytime": true,
+      "temperature": 38,
+      "temperatureUnit": "F",
+      "temperatureTrend": "",
+      "probabilityOfPrecipitation": {
+        "unitCode": "wmoUnit:percent",
+        "value": 100
+      },
+      "windSpeed": "26 to 31 mph",
+      "windDirection": "SSE",
+      "icon": "https://api.weather.gov/icons/land/day/snow,90/snow,100?size=medium",
+      "shortForecast": "Light Snow",
+      "detailedForecast": "Snow between 7am and 4pm, then rain between 4pm and 5pm, then rain and snow. Cloudy, with a high near 38. Wind chill values as low as 22. South southeast wind 26 to 31 mph, with gusts as high as 46 mph. Chance of precipitation is 100%. New snow accumulation of less than one inch possible."
+    }
+  ]
+}
