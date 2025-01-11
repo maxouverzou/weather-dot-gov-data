@@ -1,0 +1,77 @@
+{
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      -122.25700000000001,
+      48.640599999999999
+    ]
+  },
+  "relativeLocation": {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -122.329311,
+        48.610393999999999
+      ]
+    },
+    "properties": {
+      "city": "Alger",
+      "state": "WA",
+      "distance": {
+        "unitCode": "wmoUnit:m",
+        "value": 6287.0546938370999
+      },
+      "bearing": {
+        "unitCode": "wmoUnit:degree_(angle)",
+        "value": 57
+      }
+    },
+    "elevation": {
+      "unitCode": "wmoUnit:m",
+      "value": 919.88639999999998
+    }
+  },
+  "updated": null,
+  "forecastGenerator": "BaselineForecastGenerator",
+  "forecast": [
+    {
+      "number": 1,
+      "name": "Tonight",
+      "startTime": "2025-01-10T22:00:00-08:00",
+      "endTime": "2025-01-11T06:00:00-08:00",
+      "isDaytime": false,
+      "temperature": 33,
+      "temperatureUnit": "F",
+      "temperatureTrend": "",
+      "probabilityOfPrecipitation": {
+        "unitCode": "wmoUnit:percent",
+        "value": 50
+      },
+      "windSpeed": "6 to 14 mph",
+      "windDirection": "WSW",
+      "icon": "https://api.weather.gov/icons/land/night/snow,50/snow,40?size=medium",
+      "shortForecast": "Chance Snow Showers",
+      "detailedForecast": "A chance of snow showers. Mostly cloudy, with a low around 33. West southwest wind 6 to 14 mph. Chance of precipitation is 50%. New rainfall amounts less than a tenth of an inch possible."
+    },
+    {
+      "number": 2,
+      "name": "Saturday",
+      "startTime": "2025-01-11T06:00:00-08:00",
+      "endTime": "2025-01-11T18:00:00-08:00",
+      "isDaytime": true,
+      "temperature": 36,
+      "temperatureUnit": "F",
+      "temperatureTrend": "",
+      "probabilityOfPrecipitation": {
+        "unitCode": "wmoUnit:percent",
+        "value": 20
+      },
+      "windSpeed": "6 mph",
+      "windDirection": "SW",
+      "icon": "https://api.weather.gov/icons/land/day/snow,20/bkn?size=medium",
+      "shortForecast": "Slight Chance Snow Showers then Mostly Cloudy",
+      "detailedForecast": "A slight chance of snow showers before 10am. Mostly cloudy, with a high near 36. Southwest wind around 6 mph. Chance of precipitation is 20%. New rainfall amounts less than a tenth of an inch possible."
+    }
+  ]
+}
