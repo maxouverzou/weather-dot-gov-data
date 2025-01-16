@@ -1,0 +1,77 @@
+{
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      -121.4842,
+      48.4636
+    ]
+  },
+  "relativeLocation": {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -121.437344,
+        48.536031000000001
+      ]
+    },
+    "properties": {
+      "city": "Marblemount",
+      "state": "WA",
+      "distance": {
+        "unitCode": "wmoUnit:m",
+        "value": 8762.7210443435997
+      },
+      "bearing": {
+        "unitCode": "wmoUnit:degree_(angle)",
+        "value": 203
+      }
+    },
+    "elevation": {
+      "unitCode": "wmoUnit:m",
+      "value": 448.97039999999998
+    }
+  },
+  "updated": null,
+  "forecastGenerator": "BaselineForecastGenerator",
+  "forecast": [
+    {
+      "number": 1,
+      "name": "Tonight",
+      "startTime": "2025-01-15T22:00:00-08:00",
+      "endTime": "2025-01-16T06:00:00-08:00",
+      "isDaytime": false,
+      "temperature": 37,
+      "temperatureUnit": "F",
+      "temperatureTrend": "",
+      "probabilityOfPrecipitation": {
+        "unitCode": "wmoUnit:percent",
+        "value": null
+      },
+      "windSpeed": "2 mph",
+      "windDirection": "SSW",
+      "icon": "https://api.weather.gov/icons/land/night/sct?size=medium",
+      "shortForecast": "Partly Cloudy",
+      "detailedForecast": "Partly cloudy, with a low around 37. South southwest wind around 2 mph. New rainfall amounts less than a tenth of an inch possible."
+    },
+    {
+      "number": 2,
+      "name": "Thursday",
+      "startTime": "2025-01-16T06:00:00-08:00",
+      "endTime": "2025-01-16T18:00:00-08:00",
+      "isDaytime": true,
+      "temperature": 40,
+      "temperatureUnit": "F",
+      "temperatureTrend": "",
+      "probabilityOfPrecipitation": {
+        "unitCode": "wmoUnit:percent",
+        "value": 70
+      },
+      "windSpeed": "2 to 6 mph",
+      "windDirection": "SW",
+      "icon": "https://api.weather.gov/icons/land/day/snow,70/snow,40?size=medium",
+      "shortForecast": "Rain And Snow Showers Likely",
+      "detailedForecast": "Rain showers likely between 7am and 10am, then rain and snow showers likely between 10am and 11am, then a chance of rain and snow showers between 11am and noon, then a chance of rain and snow showers between noon and 2pm, then a slight chance of rain and snow showers. Mostly cloudy. High near 40, with temperatures falling to around 37 in the afternoon. Southwest wind 2 to 6 mph. Chance of precipitation is 70%. New rainfall amounts less than a tenth of an inch possible."
+    }
+  ]
+}
