@@ -1,0 +1,77 @@
+{
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      -121.4842,
+      48.4636
+    ]
+  },
+  "relativeLocation": {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -121.437344,
+        48.536031000000001
+      ]
+    },
+    "properties": {
+      "city": "Marblemount",
+      "state": "WA",
+      "distance": {
+        "unitCode": "wmoUnit:m",
+        "value": 8762.7210443435997
+      },
+      "bearing": {
+        "unitCode": "wmoUnit:degree_(angle)",
+        "value": 203
+      }
+    },
+    "elevation": {
+      "unitCode": "wmoUnit:m",
+      "value": 448.97039999999998
+    }
+  },
+  "updated": null,
+  "forecastGenerator": "BaselineForecastGenerator",
+  "forecast": [
+    {
+      "number": 1,
+      "name": "Tonight",
+      "startTime": "2025-01-24T22:00:00-08:00",
+      "endTime": "2025-01-25T06:00:00-08:00",
+      "isDaytime": false,
+      "temperature": 27,
+      "temperatureUnit": "F",
+      "temperatureTrend": "",
+      "probabilityOfPrecipitation": {
+        "unitCode": "wmoUnit:percent",
+        "value": null
+      },
+      "windSpeed": "2 mph",
+      "windDirection": "SSW",
+      "icon": "https://api.weather.gov/icons/land/night/skc?size=medium",
+      "shortForecast": "Clear",
+      "detailedForecast": "Clear, with a low around 27. South southwest wind around 2 mph."
+    },
+    {
+      "number": 2,
+      "name": "Saturday",
+      "startTime": "2025-01-25T06:00:00-08:00",
+      "endTime": "2025-01-25T18:00:00-08:00",
+      "isDaytime": true,
+      "temperature": 40,
+      "temperatureUnit": "F",
+      "temperatureTrend": "",
+      "probabilityOfPrecipitation": {
+        "unitCode": "wmoUnit:percent",
+        "value": null
+      },
+      "windSpeed": "1 to 6 mph",
+      "windDirection": "SSW",
+      "icon": "https://api.weather.gov/icons/land/day/skc?size=medium",
+      "shortForecast": "Sunny",
+      "detailedForecast": "Sunny. High near 40, with temperatures falling to around 38 in the afternoon. South southwest wind 1 to 6 mph."
+    }
+  ]
+}
