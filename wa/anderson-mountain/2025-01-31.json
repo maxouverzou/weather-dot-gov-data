@@ -1,0 +1,77 @@
+{
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      -122.25700000000001,
+      48.640599999999999
+    ]
+  },
+  "relativeLocation": {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -122.329311,
+        48.610393999999999
+      ]
+    },
+    "properties": {
+      "city": "Alger",
+      "state": "WA",
+      "distance": {
+        "unitCode": "wmoUnit:m",
+        "value": 6287.0546938370999
+      },
+      "bearing": {
+        "unitCode": "wmoUnit:degree_(angle)",
+        "value": 57
+      }
+    },
+    "elevation": {
+      "unitCode": "wmoUnit:m",
+      "value": 919.88639999999998
+    }
+  },
+  "updated": null,
+  "forecastGenerator": "BaselineForecastGenerator",
+  "forecast": [
+    {
+      "number": 1,
+      "name": "Tonight",
+      "startTime": "2025-01-30T22:00:00-08:00",
+      "endTime": "2025-01-31T06:00:00-08:00",
+      "isDaytime": false,
+      "temperature": 32,
+      "temperatureUnit": "F",
+      "temperatureTrend": "",
+      "probabilityOfPrecipitation": {
+        "unitCode": "wmoUnit:percent",
+        "value": 100
+      },
+      "windSpeed": "16 to 26 mph",
+      "windDirection": "SSE",
+      "icon": "https://api.weather.gov/icons/land/night/snow,100?size=medium",
+      "shortForecast": "Snow",
+      "detailedForecast": "Snow before 1am, then rain and snow. Cloudy. Low around 32, with temperatures rising to around 36 overnight. Wind chill values as low as 22. South southeast wind 16 to 26 mph, with gusts as high as 31 mph. Chance of precipitation is 100%. New snow accumulation of less than one inch possible."
+    },
+    {
+      "number": 2,
+      "name": "Friday",
+      "startTime": "2025-01-31T06:00:00-08:00",
+      "endTime": "2025-01-31T18:00:00-08:00",
+      "isDaytime": true,
+      "temperature": 39,
+      "temperatureUnit": "F",
+      "temperatureTrend": "",
+      "probabilityOfPrecipitation": {
+        "unitCode": "wmoUnit:percent",
+        "value": 100
+      },
+      "windSpeed": "18 to 25 mph",
+      "windDirection": "SSE",
+      "icon": "https://api.weather.gov/icons/land/day/rain,90/rain,100?size=medium",
+      "shortForecast": "Rain",
+      "detailedForecast": "Rain. Cloudy, with a high near 39. Wind chill values as low as 23. South southeast wind 18 to 25 mph, with gusts as high as 29 mph. Chance of precipitation is 100%. New snow accumulation of less than one inch possible."
+    }
+  ]
+}
