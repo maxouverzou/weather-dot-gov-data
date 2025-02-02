@@ -1,0 +1,77 @@
+{
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      -121.4842,
+      48.4636
+    ]
+  },
+  "relativeLocation": {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -121.437344,
+        48.536031000000001
+      ]
+    },
+    "properties": {
+      "city": "Marblemount",
+      "state": "WA",
+      "distance": {
+        "unitCode": "wmoUnit:m",
+        "value": 8762.7210443435997
+      },
+      "bearing": {
+        "unitCode": "wmoUnit:degree_(angle)",
+        "value": 203
+      }
+    },
+    "elevation": {
+      "unitCode": "wmoUnit:m",
+      "value": 448.97039999999998
+    }
+  },
+  "updated": null,
+  "forecastGenerator": "BaselineForecastGenerator",
+  "forecast": [
+    {
+      "number": 1,
+      "name": "Tonight",
+      "startTime": "2025-02-01T22:00:00-08:00",
+      "endTime": "2025-02-02T06:00:00-08:00",
+      "isDaytime": false,
+      "temperature": 26,
+      "temperatureUnit": "F",
+      "temperatureTrend": "",
+      "probabilityOfPrecipitation": {
+        "unitCode": "wmoUnit:percent",
+        "value": 60
+      },
+      "windSpeed": "3 mph",
+      "windDirection": "SSW",
+      "icon": "https://api.weather.gov/icons/land/night/snow,40/snow,60?size=medium",
+      "shortForecast": "Snow Showers Likely",
+      "detailedForecast": "Snow showers likely. Mostly cloudy, with a low around 26. Wind chill values as low as 23. South southwest wind around 3 mph. Chance of precipitation is 60%. New snow accumulation of around one inch possible."
+    },
+    {
+      "number": 2,
+      "name": "Sunday",
+      "startTime": "2025-02-02T06:00:00-08:00",
+      "endTime": "2025-02-02T18:00:00-08:00",
+      "isDaytime": true,
+      "temperature": 32,
+      "temperatureUnit": "F",
+      "temperatureTrend": "",
+      "probabilityOfPrecipitation": {
+        "unitCode": "wmoUnit:percent",
+        "value": 90
+      },
+      "windSpeed": "5 mph",
+      "windDirection": "S",
+      "icon": "https://api.weather.gov/icons/land/day/snow,90?size=medium",
+      "shortForecast": "Snow Showers",
+      "detailedForecast": "Snow showers. Mostly cloudy, with a high near 32. Wind chill values as low as 22. South wind around 5 mph. Chance of precipitation is 90%. New snow accumulation of 1 to 3 inches possible."
+    }
+  ]
+}
