@@ -1,0 +1,77 @@
+{
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      -121.4842,
+      48.4636
+    ]
+  },
+  "relativeLocation": {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -121.437344,
+        48.536031000000001
+      ]
+    },
+    "properties": {
+      "city": "Marblemount",
+      "state": "WA",
+      "distance": {
+        "unitCode": "wmoUnit:m",
+        "value": 8762.7210443435997
+      },
+      "bearing": {
+        "unitCode": "wmoUnit:degree_(angle)",
+        "value": 203
+      }
+    },
+    "elevation": {
+      "unitCode": "wmoUnit:m",
+      "value": 448.97039999999998
+    }
+  },
+  "updated": null,
+  "forecastGenerator": "BaselineForecastGenerator",
+  "forecast": [
+    {
+      "number": 1,
+      "name": "Tonight",
+      "startTime": "2025-02-05T22:00:00-08:00",
+      "endTime": "2025-02-06T06:00:00-08:00",
+      "isDaytime": false,
+      "temperature": 26,
+      "temperatureUnit": "F",
+      "temperatureTrend": "",
+      "probabilityOfPrecipitation": {
+        "unitCode": "wmoUnit:percent",
+        "value": 50
+      },
+      "windSpeed": "2 mph",
+      "windDirection": "ESE",
+      "icon": "https://api.weather.gov/icons/land/night/snow,50?size=medium",
+      "shortForecast": "Chance Light Snow",
+      "detailedForecast": "A chance of snow. Mostly cloudy. Low around 26, with temperatures rising to around 28 overnight. East southeast wind around 2 mph. Chance of precipitation is 50%. New snow accumulation of less than half an inch possible."
+    },
+    {
+      "number": 2,
+      "name": "Thursday",
+      "startTime": "2025-02-06T06:00:00-08:00",
+      "endTime": "2025-02-06T18:00:00-08:00",
+      "isDaytime": true,
+      "temperature": 36,
+      "temperatureUnit": "F",
+      "temperatureTrend": "",
+      "probabilityOfPrecipitation": {
+        "unitCode": "wmoUnit:percent",
+        "value": 40
+      },
+      "windSpeed": "2 mph",
+      "windDirection": "NE",
+      "icon": "https://api.weather.gov/icons/land/day/snow,40/sct?size=medium",
+      "shortForecast": "Chance Light Snow then Mostly Sunny",
+      "detailedForecast": "A chance of snow between 10am and noon. Mostly sunny. High near 36, with temperatures falling to around 33 in the afternoon. Northeast wind around 2 mph. Chance of precipitation is 40%. New snow accumulation of less than half an inch possible."
+    }
+  ]
+}
