@@ -1,0 +1,77 @@
+{
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      -121.4842,
+      48.4636
+    ]
+  },
+  "relativeLocation": {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -121.437344,
+        48.536031
+      ]
+    },
+    "properties": {
+      "city": "Marblemount",
+      "state": "WA",
+      "distance": {
+        "unitCode": "wmoUnit:m",
+        "value": 8762.7210443436
+      },
+      "bearing": {
+        "unitCode": "wmoUnit:degree_(angle)",
+        "value": 203
+      }
+    },
+    "elevation": {
+      "unitCode": "wmoUnit:m",
+      "value": 448.9704
+    }
+  },
+  "updated": null,
+  "forecastGenerator": "BaselineForecastGenerator",
+  "forecast": [
+    {
+      "number": 1,
+      "name": "Tonight",
+      "startTime": "2025-02-13T22:00:00-08:00",
+      "endTime": "2025-02-14T06:00:00-08:00",
+      "isDaytime": false,
+      "temperature": 30,
+      "temperatureUnit": "F",
+      "temperatureTrend": "",
+      "probabilityOfPrecipitation": {
+        "unitCode": "wmoUnit:percent",
+        "value": 70
+      },
+      "windSpeed": "1 to 5 mph",
+      "windDirection": "NE",
+      "icon": "https://api.weather.gov/icons/land/night/snow,50/snow,70?size=medium",
+      "shortForecast": "Light Snow Likely",
+      "detailedForecast": "Snow likely. Cloudy, with a low around 30. Wind chill values as low as 25. Northeast wind 1 to 5 mph. Chance of precipitation is 70%. New snow accumulation of less than one inch possible."
+    },
+    {
+      "number": 2,
+      "name": "Friday",
+      "startTime": "2025-02-14T06:00:00-08:00",
+      "endTime": "2025-02-14T18:00:00-08:00",
+      "isDaytime": true,
+      "temperature": 37,
+      "temperatureUnit": "F",
+      "temperatureTrend": "",
+      "probabilityOfPrecipitation": {
+        "unitCode": "wmoUnit:percent",
+        "value": 60
+      },
+      "windSpeed": "1 to 5 mph",
+      "windDirection": "WSW",
+      "icon": "https://api.weather.gov/icons/land/day/snow,60/snow,30?size=medium",
+      "shortForecast": "Light Snow Likely",
+      "detailedForecast": "Snow likely. Mostly cloudy, with a high near 37. West southwest wind 1 to 5 mph. Chance of precipitation is 60%. New snow accumulation of less than half an inch possible."
+    }
+  ]
+}

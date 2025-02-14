@@ -1,0 +1,77 @@
+{
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      -122.257,
+      48.6406
+    ]
+  },
+  "relativeLocation": {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -122.329311,
+        48.610394
+      ]
+    },
+    "properties": {
+      "city": "Alger",
+      "state": "WA",
+      "distance": {
+        "unitCode": "wmoUnit:m",
+        "value": 6287.0546938371
+      },
+      "bearing": {
+        "unitCode": "wmoUnit:degree_(angle)",
+        "value": 57
+      }
+    },
+    "elevation": {
+      "unitCode": "wmoUnit:m",
+      "value": 919.8864
+    }
+  },
+  "updated": null,
+  "forecastGenerator": "BaselineForecastGenerator",
+  "forecast": [
+    {
+      "number": 1,
+      "name": "Tonight",
+      "startTime": "2025-02-13T22:00:00-08:00",
+      "endTime": "2025-02-14T06:00:00-08:00",
+      "isDaytime": false,
+      "temperature": 25,
+      "temperatureUnit": "F",
+      "temperatureTrend": "",
+      "probabilityOfPrecipitation": {
+        "unitCode": "wmoUnit:percent",
+        "value": 50
+      },
+      "windSpeed": "2 to 6 mph",
+      "windDirection": "N",
+      "icon": "https://api.weather.gov/icons/land/night/snow,40/snow,50?size=medium",
+      "shortForecast": "Chance Light Snow",
+      "detailedForecast": "A chance of snow. Cloudy, with a low around 25. Wind chill values as low as 20. North wind 2 to 6 mph. Chance of precipitation is 50%. New snow accumulation of less than half an inch possible."
+    },
+    {
+      "number": 2,
+      "name": "Friday",
+      "startTime": "2025-02-14T06:00:00-08:00",
+      "endTime": "2025-02-14T18:00:00-08:00",
+      "isDaytime": true,
+      "temperature": 33,
+      "temperatureUnit": "F",
+      "temperatureTrend": "",
+      "probabilityOfPrecipitation": {
+        "unitCode": "wmoUnit:percent",
+        "value": 40
+      },
+      "windSpeed": "1 to 10 mph",
+      "windDirection": "WSW",
+      "icon": "https://api.weather.gov/icons/land/day/snow,20/snow,40?size=medium",
+      "shortForecast": "Chance Light Snow",
+      "detailedForecast": "A chance of snow. Mostly cloudy, with a high near 33. Wind chill values as low as 24. West southwest wind 1 to 10 mph. Chance of precipitation is 40%. New snow accumulation of less than half an inch possible."
+    }
+  ]
+}
