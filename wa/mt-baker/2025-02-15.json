@@ -1,0 +1,77 @@
+{
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      -121.4842,
+      48.4636
+    ]
+  },
+  "relativeLocation": {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -121.437344,
+        48.536031
+      ]
+    },
+    "properties": {
+      "city": "Marblemount",
+      "state": "WA",
+      "distance": {
+        "unitCode": "wmoUnit:m",
+        "value": 8762.7210443436
+      },
+      "bearing": {
+        "unitCode": "wmoUnit:degree_(angle)",
+        "value": 203
+      }
+    },
+    "elevation": {
+      "unitCode": "wmoUnit:m",
+      "value": 448.9704
+    }
+  },
+  "updated": null,
+  "forecastGenerator": "BaselineForecastGenerator",
+  "forecast": [
+    {
+      "number": 1,
+      "name": "Tonight",
+      "startTime": "2025-02-14T22:00:00-08:00",
+      "endTime": "2025-02-15T06:00:00-08:00",
+      "isDaytime": false,
+      "temperature": 30,
+      "temperatureUnit": "F",
+      "temperatureTrend": "",
+      "probabilityOfPrecipitation": {
+        "unitCode": "wmoUnit:percent",
+        "value": 50
+      },
+      "windSpeed": "2 mph",
+      "windDirection": "SSW",
+      "icon": "https://api.weather.gov/icons/land/night/snow,50/snow,20?size=medium",
+      "shortForecast": "Chance Snow Showers",
+      "detailedForecast": "A chance of snow showers before 4am. Mostly cloudy, with a low around 30. South southwest wind around 2 mph. Chance of precipitation is 50%. New snow accumulation of less than half an inch possible."
+    },
+    {
+      "number": 2,
+      "name": "Saturday",
+      "startTime": "2025-02-15T06:00:00-08:00",
+      "endTime": "2025-02-15T18:00:00-08:00",
+      "isDaytime": true,
+      "temperature": 39,
+      "temperatureUnit": "F",
+      "temperatureTrend": "",
+      "probabilityOfPrecipitation": {
+        "unitCode": "wmoUnit:percent",
+        "value": 100
+      },
+      "windSpeed": "1 to 6 mph",
+      "windDirection": "ENE",
+      "icon": "https://api.weather.gov/icons/land/day/snow,20/snow,100?size=medium",
+      "shortForecast": "Rain And Snow",
+      "detailedForecast": "Rain and snow after 11am. Cloudy. High near 39, with temperatures falling to around 37 in the afternoon. East northeast wind 1 to 6 mph. Chance of precipitation is 100%. New snow accumulation of less than half an inch possible."
+    }
+  ]
+}
