@@ -1,0 +1,77 @@
+{
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      -122.257,
+      48.6406
+    ]
+  },
+  "relativeLocation": {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -122.329311,
+        48.610394
+      ]
+    },
+    "properties": {
+      "city": "Alger",
+      "state": "WA",
+      "distance": {
+        "unitCode": "wmoUnit:m",
+        "value": 6287.0546938371
+      },
+      "bearing": {
+        "unitCode": "wmoUnit:degree_(angle)",
+        "value": 57
+      }
+    },
+    "elevation": {
+      "unitCode": "wmoUnit:m",
+      "value": 919.8864
+    }
+  },
+  "updated": null,
+  "forecastGenerator": "BaselineForecastGenerator",
+  "forecast": [
+    {
+      "number": 1,
+      "name": "Tonight",
+      "startTime": "2025-02-19T22:00:00-08:00",
+      "endTime": "2025-02-20T06:00:00-08:00",
+      "isDaytime": false,
+      "temperature": 34,
+      "temperatureUnit": "F",
+      "temperatureTrend": "",
+      "probabilityOfPrecipitation": {
+        "unitCode": "wmoUnit:percent",
+        "value": 70
+      },
+      "windSpeed": "13 to 22 mph",
+      "windDirection": "SSW",
+      "icon": "https://api.weather.gov/icons/land/night/rain,40/snow,70?size=medium",
+      "shortForecast": "Chance Light Rain then Light Snow Likely",
+      "detailedForecast": "A chance of rain before 1am, then snow likely. Cloudy, with a low around 34. South southwest wind 13 to 22 mph. Chance of precipitation is 70%. New snow accumulation of less than half an inch possible."
+    },
+    {
+      "number": 2,
+      "name": "Thursday",
+      "startTime": "2025-02-20T06:00:00-08:00",
+      "endTime": "2025-02-20T18:00:00-08:00",
+      "isDaytime": true,
+      "temperature": 39,
+      "temperatureUnit": "F",
+      "temperatureTrend": "",
+      "probabilityOfPrecipitation": {
+        "unitCode": "wmoUnit:percent",
+        "value": 70
+      },
+      "windSpeed": "13 mph",
+      "windDirection": "S",
+      "icon": "https://api.weather.gov/icons/land/day/snow,70/snow,50?size=medium",
+      "shortForecast": "Light Snow Likely",
+      "detailedForecast": "Snow likely before 1pm, then a chance of rain between 1pm and 2pm, then a chance of rain and snow. Cloudy, with a high near 39. South wind around 13 mph. Chance of precipitation is 70%. New rainfall amounts less than a tenth of an inch possible."
+    }
+  ]
+}
