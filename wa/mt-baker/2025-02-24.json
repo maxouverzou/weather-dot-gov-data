@@ -1,0 +1,77 @@
+{
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      -121.4842,
+      48.4636
+    ]
+  },
+  "relativeLocation": {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -121.437344,
+        48.536031
+      ]
+    },
+    "properties": {
+      "city": "Marblemount",
+      "state": "WA",
+      "distance": {
+        "unitCode": "wmoUnit:m",
+        "value": 8762.7210443436
+      },
+      "bearing": {
+        "unitCode": "wmoUnit:degree_(angle)",
+        "value": 203
+      }
+    },
+    "elevation": {
+      "unitCode": "wmoUnit:m",
+      "value": 448.9704
+    }
+  },
+  "updated": null,
+  "forecastGenerator": "BaselineForecastGenerator",
+  "forecast": [
+    {
+      "number": 1,
+      "name": "Tonight",
+      "startTime": "2025-02-23T22:00:00-08:00",
+      "endTime": "2025-02-24T06:00:00-08:00",
+      "isDaytime": false,
+      "temperature": 40,
+      "temperatureUnit": "F",
+      "temperatureTrend": "",
+      "probabilityOfPrecipitation": {
+        "unitCode": "wmoUnit:percent",
+        "value": 60
+      },
+      "windSpeed": "7 to 18 mph",
+      "windDirection": "SSW",
+      "icon": "https://api.weather.gov/icons/land/night/rain,60/rain,50?size=medium",
+      "shortForecast": "Light Rain Likely",
+      "detailedForecast": "Rain likely before 4am. Mostly cloudy, with a low around 40. South southwest wind 7 to 18 mph, with gusts as high as 24 mph. Chance of precipitation is 60%. New rainfall amounts between a tenth and quarter of an inch possible."
+    },
+    {
+      "number": 2,
+      "name": "Monday",
+      "startTime": "2025-02-24T06:00:00-08:00",
+      "endTime": "2025-02-24T18:00:00-08:00",
+      "isDaytime": true,
+      "temperature": 47,
+      "temperatureUnit": "F",
+      "temperatureTrend": "",
+      "probabilityOfPrecipitation": {
+        "unitCode": "wmoUnit:percent",
+        "value": 100
+      },
+      "windSpeed": "2 to 6 mph",
+      "windDirection": "ESE",
+      "icon": "https://api.weather.gov/icons/land/day/rain,40/rain,100?size=medium",
+      "shortForecast": "Rain",
+      "detailedForecast": "Rain after 10am. Cloudy. High near 47, with temperatures falling to around 44 in the afternoon. East southeast wind 2 to 6 mph, with gusts as high as 21 mph. Chance of precipitation is 100%. New rainfall amounts between a half and three quarters of an inch possible."
+    }
+  ]
+}
