@@ -1,0 +1,77 @@
+{
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      -121.4842,
+      48.4636
+    ]
+  },
+  "relativeLocation": {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -121.437344,
+        48.536031
+      ]
+    },
+    "properties": {
+      "city": "Marblemount",
+      "state": "WA",
+      "distance": {
+        "unitCode": "wmoUnit:m",
+        "value": 8762.7210443436
+      },
+      "bearing": {
+        "unitCode": "wmoUnit:degree_(angle)",
+        "value": 203
+      }
+    },
+    "elevation": {
+      "unitCode": "wmoUnit:m",
+      "value": 448.9704
+    }
+  },
+  "updated": null,
+  "forecastGenerator": "BaselineForecastGenerator",
+  "forecast": [
+    {
+      "number": 1,
+      "name": "Tonight",
+      "startTime": "2025-02-27T22:00:00-08:00",
+      "endTime": "2025-02-28T06:00:00-08:00",
+      "isDaytime": false,
+      "temperature": 41,
+      "temperatureUnit": "F",
+      "temperatureTrend": "",
+      "probabilityOfPrecipitation": {
+        "unitCode": "wmoUnit:percent",
+        "value": 20
+      },
+      "windSpeed": "5 mph",
+      "windDirection": "SE",
+      "icon": "https://api.weather.gov/icons/land/night/sct/rain,20?size=medium",
+      "shortForecast": "Partly Cloudy then Slight Chance Light Rain",
+      "detailedForecast": "A slight chance of rain between 2am and 4am. Partly cloudy, with a low around 41. Southeast wind around 5 mph. Chance of precipitation is 20%."
+    },
+    {
+      "number": 2,
+      "name": "Friday",
+      "startTime": "2025-02-28T06:00:00-08:00",
+      "endTime": "2025-02-28T18:00:00-08:00",
+      "isDaytime": true,
+      "temperature": 57,
+      "temperatureUnit": "F",
+      "temperatureTrend": "",
+      "probabilityOfPrecipitation": {
+        "unitCode": "wmoUnit:percent",
+        "value": null
+      },
+      "windSpeed": "1 to 5 mph",
+      "windDirection": "W",
+      "icon": "https://api.weather.gov/icons/land/day/few?size=medium",
+      "shortForecast": "Sunny",
+      "detailedForecast": "Sunny. High near 57, with temperatures falling to around 53 in the afternoon. West wind 1 to 5 mph."
+    }
+  ]
+}
