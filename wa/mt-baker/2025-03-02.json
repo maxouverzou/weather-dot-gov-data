@@ -1,0 +1,77 @@
+{
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      -121.4842,
+      48.4636
+    ]
+  },
+  "relativeLocation": {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -121.437344,
+        48.536031
+      ]
+    },
+    "properties": {
+      "city": "Marblemount",
+      "state": "WA",
+      "distance": {
+        "unitCode": "wmoUnit:m",
+        "value": 8762.7210443436
+      },
+      "bearing": {
+        "unitCode": "wmoUnit:degree_(angle)",
+        "value": 203
+      }
+    },
+    "elevation": {
+      "unitCode": "wmoUnit:m",
+      "value": 448.9704
+    }
+  },
+  "updated": null,
+  "forecastGenerator": "BaselineForecastGenerator",
+  "forecast": [
+    {
+      "number": 1,
+      "name": "Tonight",
+      "startTime": "2025-03-01T22:00:00-08:00",
+      "endTime": "2025-03-02T06:00:00-08:00",
+      "isDaytime": false,
+      "temperature": 43,
+      "temperatureUnit": "F",
+      "temperatureTrend": "",
+      "probabilityOfPrecipitation": {
+        "unitCode": "wmoUnit:percent",
+        "value": null
+      },
+      "windSpeed": "1 mph",
+      "windDirection": "SSW",
+      "icon": "https://api.weather.gov/icons/land/night/bkn?size=medium",
+      "shortForecast": "Mostly Cloudy",
+      "detailedForecast": "Mostly cloudy. Low around 43, with temperatures rising to around 45 overnight. South southwest wind around 1 mph. New rainfall amounts less than a tenth of an inch possible."
+    },
+    {
+      "number": 2,
+      "name": "Sunday",
+      "startTime": "2025-03-02T06:00:00-08:00",
+      "endTime": "2025-03-02T18:00:00-08:00",
+      "isDaytime": true,
+      "temperature": 47,
+      "temperatureUnit": "F",
+      "temperatureTrend": "",
+      "probabilityOfPrecipitation": {
+        "unitCode": "wmoUnit:percent",
+        "value": 60
+      },
+      "windSpeed": "2 mph",
+      "windDirection": "SW",
+      "icon": "https://api.weather.gov/icons/land/day/rain_showers,20/rain_showers,60?size=medium",
+      "shortForecast": "Rain Showers Likely",
+      "detailedForecast": "Rain showers likely after 9am. Cloudy, with a high near 47. Southwest wind around 2 mph. Chance of precipitation is 60%. New rainfall amounts less than a tenth of an inch possible."
+    }
+  ]
+}
