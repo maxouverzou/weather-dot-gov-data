@@ -1,0 +1,77 @@
+{
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      -121.4842,
+      48.4636
+    ]
+  },
+  "relativeLocation": {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -121.437344,
+        48.536031
+      ]
+    },
+    "properties": {
+      "city": "Marblemount",
+      "state": "WA",
+      "distance": {
+        "unitCode": "wmoUnit:m",
+        "value": 8762.7210443436
+      },
+      "bearing": {
+        "unitCode": "wmoUnit:degree_(angle)",
+        "value": 203
+      }
+    },
+    "elevation": {
+      "unitCode": "wmoUnit:m",
+      "value": 448.9704
+    }
+  },
+  "updated": null,
+  "forecastGenerator": "BaselineForecastGenerator",
+  "forecast": [
+    {
+      "number": 1,
+      "name": "Tonight",
+      "startTime": "2025-03-03T22:00:00-08:00",
+      "endTime": "2025-03-04T06:00:00-08:00",
+      "isDaytime": false,
+      "temperature": 40,
+      "temperatureUnit": "F",
+      "temperatureTrend": "",
+      "probabilityOfPrecipitation": {
+        "unitCode": "wmoUnit:percent",
+        "value": 30
+      },
+      "windSpeed": "1 mph",
+      "windDirection": "N",
+      "icon": "https://api.weather.gov/icons/land/night/rain,30?size=medium",
+      "shortForecast": "Chance Light Rain",
+      "detailedForecast": "A chance of rain before 2am. Mostly cloudy, with a low around 40. North wind around 1 mph. Chance of precipitation is 30%. New rainfall amounts less than a tenth of an inch possible."
+    },
+    {
+      "number": 2,
+      "name": "Tuesday",
+      "startTime": "2025-03-04T06:00:00-08:00",
+      "endTime": "2025-03-04T18:00:00-08:00",
+      "isDaytime": true,
+      "temperature": 47,
+      "temperatureUnit": "F",
+      "temperatureTrend": "",
+      "probabilityOfPrecipitation": {
+        "unitCode": "wmoUnit:percent",
+        "value": 100
+      },
+      "windSpeed": "1 to 6 mph",
+      "windDirection": "WSW",
+      "icon": "https://api.weather.gov/icons/land/day/ovc/rain,100?size=medium",
+      "shortForecast": "Cloudy then Light Rain",
+      "detailedForecast": "Rain after noon. Cloudy. High near 47, with temperatures falling to around 44 in the afternoon. West southwest wind 1 to 6 mph. Chance of precipitation is 100%. New rainfall amounts between a tenth and quarter of an inch possible."
+    }
+  ]
+}
