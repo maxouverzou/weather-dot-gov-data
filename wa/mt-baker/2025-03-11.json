@@ -1,0 +1,77 @@
+{
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      -121.4842,
+      48.4636
+    ]
+  },
+  "relativeLocation": {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -121.437344,
+        48.536031
+      ]
+    },
+    "properties": {
+      "city": "Marblemount",
+      "state": "WA",
+      "distance": {
+        "unitCode": "wmoUnit:m",
+        "value": 8762.7210443436
+      },
+      "bearing": {
+        "unitCode": "wmoUnit:degree_(angle)",
+        "value": 203
+      }
+    },
+    "elevation": {
+      "unitCode": "wmoUnit:m",
+      "value": 448.9704
+    }
+  },
+  "updated": null,
+  "forecastGenerator": "BaselineForecastGenerator",
+  "forecast": [
+    {
+      "number": 1,
+      "name": "Tonight",
+      "startTime": "2025-03-10T23:00:00-07:00",
+      "endTime": "2025-03-11T06:00:00-07:00",
+      "isDaytime": false,
+      "temperature": 34,
+      "temperatureUnit": "F",
+      "temperatureTrend": "",
+      "probabilityOfPrecipitation": {
+        "unitCode": "wmoUnit:percent",
+        "value": 70
+      },
+      "windSpeed": "3 mph",
+      "windDirection": "SE",
+      "icon": "https://api.weather.gov/icons/land/night/snow,40/snow,70?size=medium",
+      "shortForecast": "Rain And Snow Likely",
+      "detailedForecast": "Rain and snow likely. Mostly cloudy, with a low around 34. Southeast wind around 3 mph. Chance of precipitation is 70%. New rainfall amounts less than a tenth of an inch possible."
+    },
+    {
+      "number": 2,
+      "name": "Tuesday",
+      "startTime": "2025-03-11T06:00:00-07:00",
+      "endTime": "2025-03-11T18:00:00-07:00",
+      "isDaytime": true,
+      "temperature": 44,
+      "temperatureUnit": "F",
+      "temperatureTrend": "",
+      "probabilityOfPrecipitation": {
+        "unitCode": "wmoUnit:percent",
+        "value": 90
+      },
+      "windSpeed": "1 to 5 mph",
+      "windDirection": "S",
+      "icon": "https://api.weather.gov/icons/land/day/snow,50/snow,90?size=medium",
+      "shortForecast": "Chance Light Snow then Rain And Snow",
+      "detailedForecast": "A chance of snow before 8am, then rain and snow. Mostly cloudy, with a high near 44. South wind 1 to 5 mph. Chance of precipitation is 90%. New rainfall amounts between a tenth and quarter of an inch possible."
+    }
+  ]
+}
