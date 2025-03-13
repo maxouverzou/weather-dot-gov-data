@@ -1,0 +1,77 @@
+{
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      -122.257,
+      48.6406
+    ]
+  },
+  "relativeLocation": {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -122.329311,
+        48.610394
+      ]
+    },
+    "properties": {
+      "city": "Alger",
+      "state": "WA",
+      "distance": {
+        "unitCode": "wmoUnit:m",
+        "value": 6287.0546938371
+      },
+      "bearing": {
+        "unitCode": "wmoUnit:degree_(angle)",
+        "value": 57
+      }
+    },
+    "elevation": {
+      "unitCode": "wmoUnit:m",
+      "value": 919.8864
+    }
+  },
+  "updated": null,
+  "forecastGenerator": "BaselineForecastGenerator",
+  "forecast": [
+    {
+      "number": 1,
+      "name": "Tonight",
+      "startTime": "2025-03-12T23:00:00-07:00",
+      "endTime": "2025-03-13T06:00:00-07:00",
+      "isDaytime": false,
+      "temperature": 31,
+      "temperatureUnit": "F",
+      "temperatureTrend": "",
+      "probabilityOfPrecipitation": {
+        "unitCode": "wmoUnit:percent",
+        "value": 100
+      },
+      "windSpeed": "6 to 9 mph",
+      "windDirection": "WSW",
+      "icon": "https://api.weather.gov/icons/land/night/snow,100/snow,80?size=medium",
+      "shortForecast": "Snow",
+      "detailedForecast": "Snow. Cloudy. Low around 31, with temperatures rising to around 33 overnight. Wind chill values as low as 25. West southwest wind 6 to 9 mph. Chance of precipitation is 100%. New snow accumulation of 1 to 3 inches possible."
+    },
+    {
+      "number": 2,
+      "name": "Thursday",
+      "startTime": "2025-03-13T06:00:00-07:00",
+      "endTime": "2025-03-13T18:00:00-07:00",
+      "isDaytime": true,
+      "temperature": 36,
+      "temperatureUnit": "F",
+      "temperatureTrend": "",
+      "probabilityOfPrecipitation": {
+        "unitCode": "wmoUnit:percent",
+        "value": 90
+      },
+      "windSpeed": "13 mph",
+      "windDirection": "SW",
+      "icon": "https://api.weather.gov/icons/land/day/snow,80/snow,90?size=medium",
+      "shortForecast": "Snow",
+      "detailedForecast": "Snow before 5pm, then snow showers and a slight chance of thunderstorms. Mostly cloudy. High near 36, with temperatures falling to around 34 in the afternoon. Wind chill values as low as 21. Southwest wind around 13 mph. Chance of precipitation is 90%. New snow accumulation of 2 to 4 inches possible."
+    }
+  ]
+}
