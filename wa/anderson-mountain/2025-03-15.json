@@ -1,0 +1,77 @@
+{
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      -122.257,
+      48.6406
+    ]
+  },
+  "relativeLocation": {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -122.329311,
+        48.610394
+      ]
+    },
+    "properties": {
+      "city": "Alger",
+      "state": "WA",
+      "distance": {
+        "unitCode": "wmoUnit:m",
+        "value": 6287.0546938371
+      },
+      "bearing": {
+        "unitCode": "wmoUnit:degree_(angle)",
+        "value": 57
+      }
+    },
+    "elevation": {
+      "unitCode": "wmoUnit:m",
+      "value": 919.8864
+    }
+  },
+  "updated": null,
+  "forecastGenerator": "BaselineForecastGenerator",
+  "forecast": [
+    {
+      "number": 1,
+      "name": "Tonight",
+      "startTime": "2025-03-14T23:00:00-07:00",
+      "endTime": "2025-03-15T06:00:00-07:00",
+      "isDaytime": false,
+      "temperature": 31,
+      "temperatureUnit": "F",
+      "temperatureTrend": "",
+      "probabilityOfPrecipitation": {
+        "unitCode": "wmoUnit:percent",
+        "value": 80
+      },
+      "windSpeed": "12 to 16 mph",
+      "windDirection": "ESE",
+      "icon": "https://api.weather.gov/icons/land/night/snow,80?size=medium",
+      "shortForecast": "Snow",
+      "detailedForecast": "Snow. Cloudy, with a low around 31. Wind chill values as low as 24. East southeast wind 12 to 16 mph, with gusts as high as 21 mph. Chance of precipitation is 80%. New snow accumulation of 1 to 3 inches possible."
+    },
+    {
+      "number": 2,
+      "name": "Saturday",
+      "startTime": "2025-03-15T06:00:00-07:00",
+      "endTime": "2025-03-15T18:00:00-07:00",
+      "isDaytime": true,
+      "temperature": 37,
+      "temperatureUnit": "F",
+      "temperatureTrend": "",
+      "probabilityOfPrecipitation": {
+        "unitCode": "wmoUnit:percent",
+        "value": 100
+      },
+      "windSpeed": "16 to 22 mph",
+      "windDirection": "S",
+      "icon": "https://api.weather.gov/icons/land/day/snow,100?size=medium",
+      "shortForecast": "Snow",
+      "detailedForecast": "Snow. Cloudy, with a high near 37. Wind chill values as low as 22. South wind 16 to 22 mph, with gusts as high as 29 mph. Chance of precipitation is 100%. New snow accumulation of 1 to 3 inches possible."
+    }
+  ]
+}
