@@ -1,0 +1,77 @@
+{
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      -121.4842,
+      48.4636
+    ]
+  },
+  "relativeLocation": {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -121.437344,
+        48.536031
+      ]
+    },
+    "properties": {
+      "city": "Marblemount",
+      "state": "WA",
+      "distance": {
+        "unitCode": "wmoUnit:m",
+        "value": 8762.7210443436
+      },
+      "bearing": {
+        "unitCode": "wmoUnit:degree_(angle)",
+        "value": 203
+      }
+    },
+    "elevation": {
+      "unitCode": "wmoUnit:m",
+      "value": 448.9704
+    }
+  },
+  "updated": null,
+  "forecastGenerator": "BaselineForecastGenerator",
+  "forecast": [
+    {
+      "number": 1,
+      "name": "Tonight",
+      "startTime": "2025-03-18T23:00:00-07:00",
+      "endTime": "2025-03-19T06:00:00-07:00",
+      "isDaytime": false,
+      "temperature": 33,
+      "temperatureUnit": "F",
+      "temperatureTrend": "",
+      "probabilityOfPrecipitation": {
+        "unitCode": "wmoUnit:percent",
+        "value": 20
+      },
+      "windSpeed": "3 mph",
+      "windDirection": "E",
+      "icon": "https://api.weather.gov/icons/land/night/bkn/snow,20?size=medium",
+      "shortForecast": "Mostly Cloudy then Slight Chance Rain And Snow",
+      "detailedForecast": "A slight chance of rain and snow after 5am. Mostly cloudy. Low around 33, with temperatures rising to around 35 overnight. East wind around 3 mph. Chance of precipitation is 20%. New rainfall amounts less than a tenth of an inch possible."
+    },
+    {
+      "number": 2,
+      "name": "Wednesday",
+      "startTime": "2025-03-19T06:00:00-07:00",
+      "endTime": "2025-03-19T18:00:00-07:00",
+      "isDaytime": true,
+      "temperature": 46,
+      "temperatureUnit": "F",
+      "temperatureTrend": "",
+      "probabilityOfPrecipitation": {
+        "unitCode": "wmoUnit:percent",
+        "value": 90
+      },
+      "windSpeed": "7 mph",
+      "windDirection": "NE",
+      "icon": "https://api.weather.gov/icons/land/day/snow,30/snow,90?size=medium",
+      "shortForecast": "Rain And Snow",
+      "detailedForecast": "Rain and snow. Cloudy. High near 46, with temperatures falling to around 44 in the afternoon. Northeast wind around 7 mph. Chance of precipitation is 90%. New rainfall amounts less than a tenth of an inch possible."
+    }
+  ]
+}
