@@ -1,0 +1,77 @@
+{
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      -121.4842,
+      48.4636
+    ]
+  },
+  "relativeLocation": {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -121.437344,
+        48.536031
+      ]
+    },
+    "properties": {
+      "city": "Marblemount",
+      "state": "WA",
+      "distance": {
+        "unitCode": "wmoUnit:m",
+        "value": 8762.7210443436
+      },
+      "bearing": {
+        "unitCode": "wmoUnit:degree_(angle)",
+        "value": 203
+      }
+    },
+    "elevation": {
+      "unitCode": "wmoUnit:m",
+      "value": 448.9704
+    }
+  },
+  "updated": null,
+  "forecastGenerator": "BaselineForecastGenerator",
+  "forecast": [
+    {
+      "number": 1,
+      "name": "Tonight",
+      "startTime": "2025-03-27T23:00:00-07:00",
+      "endTime": "2025-03-28T06:00:00-07:00",
+      "isDaytime": false,
+      "temperature": 43,
+      "temperatureUnit": "F",
+      "temperatureTrend": "",
+      "probabilityOfPrecipitation": {
+        "unitCode": "wmoUnit:percent",
+        "value": 100
+      },
+      "windSpeed": "2 mph",
+      "windDirection": "SE",
+      "icon": "https://api.weather.gov/icons/land/night/rain,90/rain,100?size=medium",
+      "shortForecast": "Light Rain",
+      "detailedForecast": "Rain. Mostly cloudy, with a low around 43. Southeast wind around 2 mph. Chance of precipitation is 100%. New rainfall amounts between a tenth and quarter of an inch possible."
+    },
+    {
+      "number": 2,
+      "name": "Friday",
+      "startTime": "2025-03-28T06:00:00-07:00",
+      "endTime": "2025-03-28T18:00:00-07:00",
+      "isDaytime": true,
+      "temperature": 49,
+      "temperatureUnit": "F",
+      "temperatureTrend": "",
+      "probabilityOfPrecipitation": {
+        "unitCode": "wmoUnit:percent",
+        "value": 100
+      },
+      "windSpeed": "1 to 6 mph",
+      "windDirection": "S",
+      "icon": "https://api.weather.gov/icons/land/day/rain,90/rain,100?size=medium",
+      "shortForecast": "Light Rain",
+      "detailedForecast": "Rain. Cloudy. High near 49, with temperatures falling to around 47 in the afternoon. South wind 1 to 6 mph. Chance of precipitation is 100%. New rainfall amounts between a quarter and half of an inch possible."
+    }
+  ]
+}
