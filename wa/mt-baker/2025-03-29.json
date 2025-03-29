@@ -1,0 +1,77 @@
+{
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      -121.4842,
+      48.4636
+    ]
+  },
+  "relativeLocation": {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -121.437344,
+        48.536031
+      ]
+    },
+    "properties": {
+      "city": "Marblemount",
+      "state": "WA",
+      "distance": {
+        "unitCode": "wmoUnit:m",
+        "value": 8762.7210443436
+      },
+      "bearing": {
+        "unitCode": "wmoUnit:degree_(angle)",
+        "value": 203
+      }
+    },
+    "elevation": {
+      "unitCode": "wmoUnit:m",
+      "value": 448.9704
+    }
+  },
+  "updated": null,
+  "forecastGenerator": "BaselineForecastGenerator",
+  "forecast": [
+    {
+      "number": 1,
+      "name": "Tonight",
+      "startTime": "2025-03-28T23:00:00-07:00",
+      "endTime": "2025-03-29T06:00:00-07:00",
+      "isDaytime": false,
+      "temperature": 40,
+      "temperatureUnit": "F",
+      "temperatureTrend": "",
+      "probabilityOfPrecipitation": {
+        "unitCode": "wmoUnit:percent",
+        "value": 60
+      },
+      "windSpeed": "1 to 6 mph",
+      "windDirection": "S",
+      "icon": "https://api.weather.gov/icons/land/night/rain_showers,50/snow,60?size=medium",
+      "shortForecast": "Rain And Snow Showers Likely",
+      "detailedForecast": "A chance of rain showers before 5am, then rain and snow showers likely. Mostly cloudy, with a low around 40. South wind 1 to 6 mph. Chance of precipitation is 60%. New rainfall amounts less than a tenth of an inch possible."
+    },
+    {
+      "number": 2,
+      "name": "Saturday",
+      "startTime": "2025-03-29T06:00:00-07:00",
+      "endTime": "2025-03-29T18:00:00-07:00",
+      "isDaytime": true,
+      "temperature": 48,
+      "temperatureUnit": "F",
+      "temperatureTrend": "",
+      "probabilityOfPrecipitation": {
+        "unitCode": "wmoUnit:percent",
+        "value": 70
+      },
+      "windSpeed": "1 to 5 mph",
+      "windDirection": "SW",
+      "icon": "https://api.weather.gov/icons/land/day/snow,70?size=medium",
+      "shortForecast": "Rain And Snow Showers Likely",
+      "detailedForecast": "Rain and snow showers likely before 5pm. Mostly cloudy, with a high near 48. Southwest wind 1 to 5 mph. Chance of precipitation is 70%. New rainfall amounts less than a tenth of an inch possible."
+    }
+  ]
+}
