@@ -1,0 +1,77 @@
+{
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      -122.257,
+      48.6406
+    ]
+  },
+  "relativeLocation": {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -122.329311,
+        48.610394
+      ]
+    },
+    "properties": {
+      "city": "Alger",
+      "state": "WA",
+      "distance": {
+        "unitCode": "wmoUnit:m",
+        "value": 6287.0546938371
+      },
+      "bearing": {
+        "unitCode": "wmoUnit:degree_(angle)",
+        "value": 57
+      }
+    },
+    "elevation": {
+      "unitCode": "wmoUnit:m",
+      "value": 919.8864
+    }
+  },
+  "updated": null,
+  "forecastGenerator": "BaselineForecastGenerator",
+  "forecast": [
+    {
+      "number": 1,
+      "name": "Tonight",
+      "startTime": "2025-04-06T23:00:00-07:00",
+      "endTime": "2025-04-07T06:00:00-07:00",
+      "isDaytime": false,
+      "temperature": 41,
+      "temperatureUnit": "F",
+      "temperatureTrend": "",
+      "probabilityOfPrecipitation": {
+        "unitCode": "wmoUnit:percent",
+        "value": 100
+      },
+      "windSpeed": "12 mph",
+      "windDirection": "S",
+      "icon": "https://api.weather.gov/icons/land/night/rain,100?size=medium",
+      "shortForecast": "Rain",
+      "detailedForecast": "Rain. Cloudy, with a low around 41. South wind around 12 mph. Chance of precipitation is 100%. New rainfall amounts between a half and three quarters of an inch possible."
+    },
+    {
+      "number": 2,
+      "name": "Monday",
+      "startTime": "2025-04-07T06:00:00-07:00",
+      "endTime": "2025-04-07T18:00:00-07:00",
+      "isDaytime": true,
+      "temperature": 46,
+      "temperatureUnit": "F",
+      "temperatureTrend": "",
+      "probabilityOfPrecipitation": {
+        "unitCode": "wmoUnit:percent",
+        "value": 90
+      },
+      "windSpeed": "9 to 17 mph",
+      "windDirection": "S",
+      "icon": "https://api.weather.gov/icons/land/day/rain,60/snow,90?size=medium",
+      "shortForecast": "Light Rain then Slight Chance T-storms",
+      "detailedForecast": "Rain before 5pm, then a slight chance of thunderstorms and rain and snow showers. Mostly cloudy. High near 46, with temperatures falling to around 42 in the afternoon. South wind 9 to 17 mph, with gusts as high as 30 mph. Chance of precipitation is 90%. New rainfall amounts between a half and three quarters of an inch possible."
+    }
+  ]
+}
