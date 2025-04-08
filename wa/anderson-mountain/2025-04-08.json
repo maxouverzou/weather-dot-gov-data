@@ -1,0 +1,77 @@
+{
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      -122.257,
+      48.6406
+    ]
+  },
+  "relativeLocation": {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -122.329311,
+        48.610394
+      ]
+    },
+    "properties": {
+      "city": "Alger",
+      "state": "WA",
+      "distance": {
+        "unitCode": "wmoUnit:m",
+        "value": 6287.0546938371
+      },
+      "bearing": {
+        "unitCode": "wmoUnit:degree_(angle)",
+        "value": 57
+      }
+    },
+    "elevation": {
+      "unitCode": "wmoUnit:m",
+      "value": 919.8864
+    }
+  },
+  "updated": null,
+  "forecastGenerator": "BaselineForecastGenerator",
+  "forecast": [
+    {
+      "number": 1,
+      "name": "Tonight",
+      "startTime": "2025-04-07T23:00:00-07:00",
+      "endTime": "2025-04-08T06:00:00-07:00",
+      "isDaytime": false,
+      "temperature": 36,
+      "temperatureUnit": "F",
+      "temperatureTrend": "",
+      "probabilityOfPrecipitation": {
+        "unitCode": "wmoUnit:percent",
+        "value": 90
+      },
+      "windSpeed": "13 to 17 mph",
+      "windDirection": "SSE",
+      "icon": "https://api.weather.gov/icons/land/night/snow,90/snow,80?size=medium",
+      "shortForecast": "Rain And Snow",
+      "detailedForecast": "Rain and snow before 2am, then rain and snow. Mostly cloudy, with a low around 36. South southeast wind 13 to 17 mph, with gusts as high as 23 mph. Chance of precipitation is 90%. New rainfall amounts between a quarter and half of an inch possible."
+    },
+    {
+      "number": 2,
+      "name": "Tuesday",
+      "startTime": "2025-04-08T06:00:00-07:00",
+      "endTime": "2025-04-08T18:00:00-07:00",
+      "isDaytime": true,
+      "temperature": 42,
+      "temperatureUnit": "F",
+      "temperatureTrend": "",
+      "probabilityOfPrecipitation": {
+        "unitCode": "wmoUnit:percent",
+        "value": 100
+      },
+      "windSpeed": "18 mph",
+      "windDirection": "S",
+      "icon": "https://api.weather.gov/icons/land/day/snow,100/snow,90?size=medium",
+      "shortForecast": "Rain And Snow",
+      "detailedForecast": "Rain and snow before 2pm, then showers and thunderstorms. Cloudy, with a high near 42. South wind around 18 mph, with gusts as high as 30 mph. Chance of precipitation is 100%. New rainfall amounts between a half and three quarters of an inch possible."
+    }
+  ]
+}
