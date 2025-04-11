@@ -1,0 +1,77 @@
+{
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      -122.257,
+      48.6406
+    ]
+  },
+  "relativeLocation": {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -122.329311,
+        48.610394
+      ]
+    },
+    "properties": {
+      "city": "Alger",
+      "state": "WA",
+      "distance": {
+        "unitCode": "wmoUnit:m",
+        "value": 6287.0546938371
+      },
+      "bearing": {
+        "unitCode": "wmoUnit:degree_(angle)",
+        "value": 57
+      }
+    },
+    "elevation": {
+      "unitCode": "wmoUnit:m",
+      "value": 919.8864
+    }
+  },
+  "updated": null,
+  "forecastGenerator": "BaselineForecastGenerator",
+  "forecast": [
+    {
+      "number": 1,
+      "name": "Tonight",
+      "startTime": "2025-04-10T23:00:00-07:00",
+      "endTime": "2025-04-11T06:00:00-07:00",
+      "isDaytime": false,
+      "temperature": 35,
+      "temperatureUnit": "F",
+      "temperatureTrend": "",
+      "probabilityOfPrecipitation": {
+        "unitCode": "wmoUnit:percent",
+        "value": 60
+      },
+      "windSpeed": "5 to 13 mph",
+      "windDirection": "SW",
+      "icon": "https://api.weather.gov/icons/land/night/snow,60/snow,50?size=medium",
+      "shortForecast": "Rain And Snow Showers Likely",
+      "detailedForecast": "Rain and snow showers likely before 5am. Mostly cloudy, with a low around 35. Southwest wind 5 to 13 mph, with gusts as high as 22 mph. Chance of precipitation is 60%. New rainfall amounts less than a tenth of an inch possible."
+    },
+    {
+      "number": 2,
+      "name": "Friday",
+      "startTime": "2025-04-11T06:00:00-07:00",
+      "endTime": "2025-04-11T18:00:00-07:00",
+      "isDaytime": true,
+      "temperature": 42,
+      "temperatureUnit": "F",
+      "temperatureTrend": "",
+      "probabilityOfPrecipitation": {
+        "unitCode": "wmoUnit:percent",
+        "value": 30
+      },
+      "windSpeed": "5 to 12 mph",
+      "windDirection": "SW",
+      "icon": "https://api.weather.gov/icons/land/day/snow,30/bkn?size=medium",
+      "shortForecast": "Chance Light Snow then Partly Sunny",
+      "detailedForecast": "A chance of snow before 11am. Partly sunny, with a high near 42. Southwest wind 5 to 12 mph. Chance of precipitation is 30%. New rainfall amounts less than a tenth of an inch possible."
+    }
+  ]
+}
