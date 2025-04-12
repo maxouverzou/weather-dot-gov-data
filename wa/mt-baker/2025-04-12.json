@@ -1,0 +1,77 @@
+{
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      -121.4842,
+      48.4636
+    ]
+  },
+  "relativeLocation": {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -121.437344,
+        48.536031
+      ]
+    },
+    "properties": {
+      "city": "Marblemount",
+      "state": "WA",
+      "distance": {
+        "unitCode": "wmoUnit:m",
+        "value": 8762.7210443436
+      },
+      "bearing": {
+        "unitCode": "wmoUnit:degree_(angle)",
+        "value": 203
+      }
+    },
+    "elevation": {
+      "unitCode": "wmoUnit:m",
+      "value": 448.9704
+    }
+  },
+  "updated": null,
+  "forecastGenerator": "BaselineForecastGenerator",
+  "forecast": [
+    {
+      "number": 1,
+      "name": "Tonight",
+      "startTime": "2025-04-11T23:00:00-07:00",
+      "endTime": "2025-04-12T06:00:00-07:00",
+      "isDaytime": false,
+      "temperature": 38,
+      "temperatureUnit": "F",
+      "temperatureTrend": "",
+      "probabilityOfPrecipitation": {
+        "unitCode": "wmoUnit:percent",
+        "value": 60
+      },
+      "windSpeed": "2 mph",
+      "windDirection": "SW",
+      "icon": "https://api.weather.gov/icons/land/night/bkn/snow,60?size=medium",
+      "shortForecast": "Mostly Cloudy then Chance Rain And Snow Showers",
+      "detailedForecast": "A chance of rain showers between 1am and 2am, then a chance of rain and snow showers between 2am and 3am, then a chance of rain and snow showers between 3am and 5am, then rain and snow showers likely. Mostly cloudy, with a low around 38. Southwest wind around 2 mph. Chance of precipitation is 60%. New rainfall amounts less than a tenth of an inch possible."
+    },
+    {
+      "number": 2,
+      "name": "Saturday",
+      "startTime": "2025-04-12T06:00:00-07:00",
+      "endTime": "2025-04-12T18:00:00-07:00",
+      "isDaytime": true,
+      "temperature": 46,
+      "temperatureUnit": "F",
+      "temperatureTrend": "",
+      "probabilityOfPrecipitation": {
+        "unitCode": "wmoUnit:percent",
+        "value": 60
+      },
+      "windSpeed": "2 to 7 mph",
+      "windDirection": "WSW",
+      "icon": "https://api.weather.gov/icons/land/day/snow,60/snow,30?size=medium",
+      "shortForecast": "Rain And Snow Showers Likely then Chance Rain And Snow Showers",
+      "detailedForecast": "Rain and snow showers likely before 7am, then a chance of rain and snow showers between 7am and 3pm. Partly sunny, with a high near 46. West southwest wind 2 to 7 mph. Chance of precipitation is 60%. New rainfall amounts less than a tenth of an inch possible."
+    }
+  ]
+}
