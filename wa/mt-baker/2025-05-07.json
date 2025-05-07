@@ -1,0 +1,77 @@
+{
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      -121.4842,
+      48.4636
+    ]
+  },
+  "relativeLocation": {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -121.437344,
+        48.536031
+      ]
+    },
+    "properties": {
+      "city": "Marblemount",
+      "state": "WA",
+      "distance": {
+        "unitCode": "wmoUnit:m",
+        "value": 8762.7210443436
+      },
+      "bearing": {
+        "unitCode": "wmoUnit:degree_(angle)",
+        "value": 203
+      }
+    },
+    "elevation": {
+      "unitCode": "wmoUnit:m",
+      "value": 448.9704
+    }
+  },
+  "updated": null,
+  "forecastGenerator": "BaselineForecastGenerator",
+  "forecast": [
+    {
+      "number": 1,
+      "name": "Tonight",
+      "startTime": "2025-05-06T23:00:00-07:00",
+      "endTime": "2025-05-07T06:00:00-07:00",
+      "isDaytime": false,
+      "temperature": 54,
+      "temperatureUnit": "F",
+      "temperatureTrend": "",
+      "probabilityOfPrecipitation": {
+        "unitCode": "wmoUnit:percent",
+        "value": 20
+      },
+      "windSpeed": "3 mph",
+      "windDirection": "SSE",
+      "icon": "https://api.weather.gov/icons/land/night/bkn/rain_showers,20?size=medium",
+      "shortForecast": "Mostly Cloudy then Slight Chance Rain Showers",
+      "detailedForecast": "A slight chance of rain showers after 5am. Mostly cloudy, with a low around 54. South southeast wind around 3 mph. Chance of precipitation is 20%."
+    },
+    {
+      "number": 2,
+      "name": "Wednesday",
+      "startTime": "2025-05-07T06:00:00-07:00",
+      "endTime": "2025-05-07T18:00:00-07:00",
+      "isDaytime": true,
+      "temperature": 64,
+      "temperatureUnit": "F",
+      "temperatureTrend": "",
+      "probabilityOfPrecipitation": {
+        "unitCode": "wmoUnit:percent",
+        "value": 70
+      },
+      "windSpeed": "2 to 8 mph",
+      "windDirection": "SW",
+      "icon": "https://api.weather.gov/icons/land/day/rain_showers,20/rain_showers,70?size=medium",
+      "shortForecast": "Rain Showers Likely",
+      "detailedForecast": "Rain showers likely. Partly sunny. High near 64, with temperatures falling to around 60 in the afternoon. Southwest wind 2 to 8 mph. Chance of precipitation is 70%. New rainfall amounts between a tenth and quarter of an inch possible."
+    }
+  ]
+}
