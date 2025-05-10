@@ -1,0 +1,77 @@
+{
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      -121.4842,
+      48.4636
+    ]
+  },
+  "relativeLocation": {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -121.437344,
+        48.536031
+      ]
+    },
+    "properties": {
+      "city": "Marblemount",
+      "state": "WA",
+      "distance": {
+        "unitCode": "wmoUnit:m",
+        "value": 8762.7210443436
+      },
+      "bearing": {
+        "unitCode": "wmoUnit:degree_(angle)",
+        "value": 203
+      }
+    },
+    "elevation": {
+      "unitCode": "wmoUnit:m",
+      "value": 448.9704
+    }
+  },
+  "updated": null,
+  "forecastGenerator": "BaselineForecastGenerator",
+  "forecast": [
+    {
+      "number": 1,
+      "name": "Tonight",
+      "startTime": "2025-05-09T23:00:00-07:00",
+      "endTime": "2025-05-10T06:00:00-07:00",
+      "isDaytime": false,
+      "temperature": 51,
+      "temperatureUnit": "F",
+      "temperatureTrend": "",
+      "probabilityOfPrecipitation": {
+        "unitCode": "wmoUnit:percent",
+        "value": null
+      },
+      "windSpeed": "2 mph",
+      "windDirection": "SW",
+      "icon": "https://api.weather.gov/icons/land/night/bkn?size=medium",
+      "shortForecast": "Mostly Cloudy",
+      "detailedForecast": "Mostly cloudy, with a low around 51. Southwest wind around 2 mph."
+    },
+    {
+      "number": 2,
+      "name": "Saturday",
+      "startTime": "2025-05-10T06:00:00-07:00",
+      "endTime": "2025-05-10T18:00:00-07:00",
+      "isDaytime": true,
+      "temperature": 58,
+      "temperatureUnit": "F",
+      "temperatureTrend": "",
+      "probabilityOfPrecipitation": {
+        "unitCode": "wmoUnit:percent",
+        "value": 20
+      },
+      "windSpeed": "1 to 7 mph",
+      "windDirection": "SW",
+      "icon": "https://api.weather.gov/icons/land/day/rain,20?size=medium",
+      "shortForecast": "Slight Chance Light Rain",
+      "detailedForecast": "A slight chance of rain between 9am and 2pm. Mostly cloudy. High near 58, with temperatures falling to around 56 in the afternoon. Southwest wind 1 to 7 mph. Chance of precipitation is 20%."
+    }
+  ]
+}
