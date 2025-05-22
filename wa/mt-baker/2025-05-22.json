@@ -1,0 +1,77 @@
+{
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      -121.4842,
+      48.4636
+    ]
+  },
+  "relativeLocation": {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -121.437344,
+        48.536031
+      ]
+    },
+    "properties": {
+      "city": "Marblemount",
+      "state": "WA",
+      "distance": {
+        "unitCode": "wmoUnit:m",
+        "value": 8762.7210443436
+      },
+      "bearing": {
+        "unitCode": "wmoUnit:degree_(angle)",
+        "value": 203
+      }
+    },
+    "elevation": {
+      "unitCode": "wmoUnit:m",
+      "value": 448.9704
+    }
+  },
+  "updated": null,
+  "forecastGenerator": "BaselineForecastGenerator",
+  "forecast": [
+    {
+      "number": 1,
+      "name": "Tonight",
+      "startTime": "2025-05-21T23:00:00-07:00",
+      "endTime": "2025-05-22T06:00:00-07:00",
+      "isDaytime": false,
+      "temperature": 48,
+      "temperatureUnit": "F",
+      "temperatureTrend": "",
+      "probabilityOfPrecipitation": {
+        "unitCode": "wmoUnit:percent",
+        "value": 20
+      },
+      "windSpeed": "2 mph",
+      "windDirection": "S",
+      "icon": "https://api.weather.gov/icons/land/night/bkn/rain,20?size=medium",
+      "shortForecast": "Mostly Cloudy then Slight Chance Light Rain",
+      "detailedForecast": "A slight chance of rain after 5am. Mostly cloudy, with a low around 48. South wind around 2 mph. Chance of precipitation is 20%."
+    },
+    {
+      "number": 2,
+      "name": "Thursday",
+      "startTime": "2025-05-22T06:00:00-07:00",
+      "endTime": "2025-05-22T18:00:00-07:00",
+      "isDaytime": true,
+      "temperature": 61,
+      "temperatureUnit": "F",
+      "temperatureTrend": "",
+      "probabilityOfPrecipitation": {
+        "unitCode": "wmoUnit:percent",
+        "value": 40
+      },
+      "windSpeed": "1 to 7 mph",
+      "windDirection": "WSW",
+      "icon": "https://api.weather.gov/icons/land/day/rain,20/rain,40?size=medium",
+      "shortForecast": "Chance Light Rain",
+      "detailedForecast": "A chance of rain before 5pm. Partly sunny, with a high near 61. West southwest wind 1 to 7 mph. Chance of precipitation is 40%. New rainfall amounts less than a tenth of an inch possible."
+    }
+  ]
+}
